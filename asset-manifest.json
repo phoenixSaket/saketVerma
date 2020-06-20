@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/saketVerma/static/css/main.5f361e03.chunk.css",
+    "main.js": "/saketVerma/static/js/main.fe681c91.chunk.js",
+    "main.js.map": "/saketVerma/static/js/main.fe681c91.chunk.js.map",
+    "runtime-main.js": "/saketVerma/static/js/runtime-main.7747ab14.js",
+    "runtime-main.js.map": "/saketVerma/static/js/runtime-main.7747ab14.js.map",
+    "static/js/2.a061eb6e.chunk.js": "/saketVerma/static/js/2.a061eb6e.chunk.js",
+    "static/js/2.a061eb6e.chunk.js.map": "/saketVerma/static/js/2.a061eb6e.chunk.js.map",
+    "index.html": "/saketVerma/index.html",
+    "precache-manifest.48def57c3ad12933f0e70d6db17b9894.js": "/saketVerma/precache-manifest.48def57c3ad12933f0e70d6db17b9894.js",
+    "service-worker.js": "/saketVerma/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/saketVerma/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.a061eb6e.chunk.js.LICENSE.txt": "/saketVerma/static/js/2.a061eb6e.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/saketVerma/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7747ab14.js",
+    "static/js/2.a061eb6e.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.fe681c91.chunk.js"
+  ]
+}
