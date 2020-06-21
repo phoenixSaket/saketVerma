@@ -3,6 +3,7 @@ import React from "react";
 import "./App.css";
 import { Container, Navbar } from "react-bootstrap";
 import Content from "./Components/Content";
+import Education from "./Components/Education";
 
 function App() {
   // const height = screen.height;
@@ -10,7 +11,7 @@ function App() {
     <div className="homepage">
       <Container className="containerMain" size="md">
         <div className="navbar-container">
-          <Navbar fluid fixed="top">
+          <Navbar fixed="top">
             <Navbar.Brand>
               <span className="notOnMobile">Saket Verma</span>
             </Navbar.Brand>
@@ -76,6 +77,9 @@ function App() {
             Designing and Coding have been my passion since the days I started working with computers.
             I enjoy creating beautifully designed, intuitive and functional websites, softwares, live wallpapers."
             />
+            <div style={{ marginTop: '40px' }}>
+              <Education />
+            </div>
           </div>
           <div className="sidebar-container tabletPlus">
             <div className="sidebar">

@@ -47,6 +47,7 @@
 .container-inner {
   background-color: white;
   padding: 20px;
+  padding-bottom: 200px;
   /* height: 800px; */
   width: 100%;
   max-width: 800px;
