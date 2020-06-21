@@ -32,3 +32,15 @@
 .blankRow{
     height: 30px;
 }
+
+.educationTitle {
+    font-weight: 700;
+}
+
+.city {
+    color: #808080;
+}
+
+.duration {
+    color: darkgray;
+}

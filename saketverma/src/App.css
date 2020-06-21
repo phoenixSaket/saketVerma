@@ -47,7 +47,7 @@
 .container-inner {
   background-color: white;
   padding: 20px;
-  padding-bottom: 200px;
+  padding-bottom: 50px;
   /* height: 800px; */
   width: 100%;
   max-width: 800px;
@@ -163,6 +163,10 @@ a {
 
 .heading-sub {
   font-size: 30px;
+}
+
+.inner-content {
+  padding: 0px 20px;
 }
 
 @media only screen and (min-width: 300px) {

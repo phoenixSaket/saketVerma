@@ -16,7 +16,7 @@ function Education() {
                     <Col xs="6" className="leftSide">
                         <span className="educationTitle">MCA</span><br />
                         <span className="institute">
-                            Veermata Jijabai technological Institute<br />
+                            Veermata Jijabai Technological Institute<br />
                             <span className="city">
                                 Mumbai
                                 </span>
@@ -60,14 +60,14 @@ function Education() {
 
                 <Row style={{ width: '100%' }}>
                     <Col xs="6" className="leftSide">
-                        <span className="educationTitle">MCA</span><br />
+                        <span className="educationTitle">High School Certificate (HSC)</span><br />
                         <span className="institute">
-                            Veermata Jijabai technological Institute<br />
+                            Ushabai Deshmukh Jr. College<br />
                             <span className="city">
-                                Mumbai
-                                </span>
+                                Achalpur
+                            </span>
                         </span><br />
-                        <span className="duration">2017 - 2020</span>
+                        <span className="duration">2014</span>
                     </Col>
                     <div className="verticalLine" />
                     <Col xs="6" className="rightSide" />
@@ -78,20 +78,20 @@ function Education() {
                     <Col xs="6" />
                 </Row>
 
-                {/* Secondar School */}
+                {/* Secondary School */}
 
                 <Row style={{ width: '100%' }}>
                     <Col xs="6" className="leftSide" />
                     <div className="verticalLine" />
                     <Col xs="6" className="rightSide" >
-                        <span className="educationTitle">BCA</span><br />
+                        <span className="educationTitle">Secondary School Certificate (SSC)</span><br />
                         <span className="institute">
-                            G. H. Raisoni Institute for .I.T<br />
+                            Fatima Convent High School<br />
                             <span className="city">
-                                Nagpur
+                                Achalpur
                             </span>
                         </span><br />
-                        <span className="duration">2014 - 2017</span>
+                        <span className="duration">2012</span>
                     </Col>
                 </Row>
             </div>
