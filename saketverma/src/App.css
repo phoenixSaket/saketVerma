@@ -1,7 +1,7 @@
 .homepage {
   color: black;
   background-image: url("./Images/BG.png");
-  height: 100%;
+  /* height: 100%; */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
@@ -14,7 +14,7 @@
   display: flex;
   justify-content: center;
   align-content: center;
-  height: 100%;
+  /* height: 100%; */
   padding-top: 200px;
 }
 
@@ -47,7 +47,7 @@
 .container-inner {
   background-color: white;
   padding: 20px;
-  height: 800px;
+  /* height: 800px; */
   width: 100%;
   max-width: 800px;
   min-width: 290px;
