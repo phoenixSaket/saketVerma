@@ -41,27 +41,27 @@ function App() {
                     <h5>Developer | Designer</h5>
                   </div>
                   <div className="social-media">
-                    <a href="https://www.facebook.com/iamsaket.verma">
+                    <a href="https://www.facebook.com/iamsaket.verma" rel='noopener noreferrer' target="_blank">
                       <span>
                         <i className="fa fa-facebook" />
                       </span>
                     </a>
-                    <a href="https://www.instagram.com/saket.verma/">
+                    <a href="https://www.instagram.com/saket.verma/" rel='noopener noreferrer' target="_blank">
                       <span>
                         <i className="fa fa-instagram" />
                       </span>
                     </a>
-                    <a href="https://www.reddit.com/user/phoenix_saket">
+                    <a href="https://www.reddit.com/user/phoenix_saket" rel='noopener noreferrer' target="_blank">
                       <span>
                         <i className="fa fa-reddit-alien" />
                       </span>
                     </a>
-                    <a href="https://twitter.com/phoenix_saket">
+                    <a href="https://twitter.com/phoenix_saket" rel='noopener noreferrer' target="_blank">
                       <span>
                         <i className="fa fa-twitter" />
                       </span>
                     </a>
-                    <a href="https://github.com/phoenixSaket">
+                    <a href="https://github.com/phoenixSaket" rel='noopener noreferrer' target="_blank">
                       <span>
                         <i className="fa fa-github" />
                       </span>
