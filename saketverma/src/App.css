@@ -6,6 +6,7 @@
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-attachment: fixed;
 }
 
 .App {
