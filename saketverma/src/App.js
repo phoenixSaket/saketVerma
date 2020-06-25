@@ -18,7 +18,7 @@ function App() {
             <div className="sidebar-top mobile-only">
               <img
                 className="avatar-mini shadows"
-                src={require("./Images/myAvatar.png")}
+                src={require("./Images/SaketVerma.jpg")}
                 alt="my Avatar"
               />
             </div>
@@ -30,7 +30,7 @@ function App() {
               <div className="personal-inner">
                 <img
                   className="avatar shadows"
-                  src={require("./Images/myAvatar.png")}
+                  src={require("./Images/SaketVerma.jpg")}
                   alt="my Avatar"
                 />
                 <div className="personal-info mobile-center">
@@ -85,7 +85,7 @@ function App() {
             <div className="sidebar">
               <img
                 className="avatar-mini shadows"
-                src={require("./Images/myAvatar.png")}
+                src={require("./Images/SaketVerma.jpg")}
                 alt="my Avatar"
               />
             </div>
