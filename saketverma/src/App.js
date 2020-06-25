@@ -13,7 +13,9 @@ function App() {
         <div className="navbar-container">
           <Navbar fixed="top">
             <Navbar.Brand>
-              <span className="notOnMobile">Saket Verma</span>
+              <span 
+              // className="notOnMobile"
+              >Saket Verma</span>
             </Navbar.Brand>
             <div className="sidebar-top mobile-only">
               <img
