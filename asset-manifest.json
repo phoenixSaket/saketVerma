@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/saketVerma/static/css/main.4b4da8dc.chunk.css",
-    "main.js": "/saketVerma/static/js/main.1b98a909.chunk.js",
-    "main.js.map": "/saketVerma/static/js/main.1b98a909.chunk.js.map",
+    "main.css": "/saketVerma/static/css/main.b381f114.chunk.css",
+    "main.js": "/saketVerma/static/js/main.fd2e757c.chunk.js",
+    "main.js.map": "/saketVerma/static/js/main.fd2e757c.chunk.js.map",
     "runtime-main.js": "/saketVerma/static/js/runtime-main.7747ab14.js",
     "runtime-main.js.map": "/saketVerma/static/js/runtime-main.7747ab14.js.map",
     "static/css/2.af3c1da9.chunk.css": "/saketVerma/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.6d08d44d.chunk.js": "/saketVerma/static/js/2.6d08d44d.chunk.js",
-    "static/js/2.6d08d44d.chunk.js.map": "/saketVerma/static/js/2.6d08d44d.chunk.js.map",
+    "static/js/2.4e9a39ea.chunk.js": "/saketVerma/static/js/2.4e9a39ea.chunk.js",
+    "static/js/2.4e9a39ea.chunk.js.map": "/saketVerma/static/js/2.4e9a39ea.chunk.js.map",
     "index.html": "/saketVerma/index.html",
-    "precache-manifest.4b026476c83f1018c04295b17fff45bc.js": "/saketVerma/precache-manifest.4b026476c83f1018c04295b17fff45bc.js",
+    "precache-manifest.d24f99f4d5fd91eebfe2266b5ebae9a8.js": "/saketVerma/precache-manifest.d24f99f4d5fd91eebfe2266b5ebae9a8.js",
     "service-worker.js": "/saketVerma/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/saketVerma/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.4b4da8dc.chunk.css.map": "/saketVerma/static/css/main.4b4da8dc.chunk.css.map",
-    "static/js/2.6d08d44d.chunk.js.LICENSE.txt": "/saketVerma/static/js/2.6d08d44d.chunk.js.LICENSE.txt",
+    "static/css/main.b381f114.chunk.css.map": "/saketVerma/static/css/main.b381f114.chunk.css.map",
+    "static/js/2.4e9a39ea.chunk.js.LICENSE.txt": "/saketVerma/static/js/2.4e9a39ea.chunk.js.LICENSE.txt",
     "static/media/App.css": "/saketVerma/static/media/BG.ae384ac8.png",
     "static/media/SaketVerma.jpg": "/saketVerma/static/media/SaketVerma.ce96a8c3.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.7747ab14.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.6d08d44d.chunk.js",
-    "static/css/main.4b4da8dc.chunk.css",
-    "static/js/main.1b98a909.chunk.js"
+    "static/js/2.4e9a39ea.chunk.js",
+    "static/css/main.b381f114.chunk.css",
+    "static/js/main.fd2e757c.chunk.js"
   ]
 }

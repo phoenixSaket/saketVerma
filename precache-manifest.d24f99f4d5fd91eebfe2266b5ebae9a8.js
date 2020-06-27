@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9958e31699c69b72be18b529df823a1f",
+    "revision": "266efe058b508bbe29ceeb34c524a85c",
     "url": "/saketVerma/index.html"
   },
   {
-    "revision": "61525b91a7809f5640ee",
+    "revision": "d20d9807e8268910b086",
     "url": "/saketVerma/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "357f903c677b40de3cfc",
-    "url": "/saketVerma/static/css/main.4b4da8dc.chunk.css"
+    "revision": "fdd7ffe623a413917a97",
+    "url": "/saketVerma/static/css/main.b381f114.chunk.css"
   },
   {
-    "revision": "61525b91a7809f5640ee",
-    "url": "/saketVerma/static/js/2.6d08d44d.chunk.js"
+    "revision": "d20d9807e8268910b086",
+    "url": "/saketVerma/static/js/2.4e9a39ea.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/saketVerma/static/js/2.6d08d44d.chunk.js.LICENSE.txt"
+    "url": "/saketVerma/static/js/2.4e9a39ea.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "357f903c677b40de3cfc",
-    "url": "/saketVerma/static/js/main.1b98a909.chunk.js"
+    "revision": "fdd7ffe623a413917a97",
+    "url": "/saketVerma/static/js/main.fd2e757c.chunk.js"
   },
   {
     "revision": "b9e9fa6507d6e989d917",
