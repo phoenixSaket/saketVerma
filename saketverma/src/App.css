@@ -1,5 +1,5 @@
 .homepage {
-  color: black;
+  /* color: black; */
   background-image: url("./Images/BG.png");
   /* height: 100%; */
   background-position: center; /* Center the image */
@@ -10,7 +10,7 @@
 }
 
 .App {
-  color: black;
+  /* color: black; */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 16px;
   display: flex;
@@ -146,7 +146,8 @@ a {
 }
 
 .aboutMe {
-  padding-top: 30px;
+  /* padding-top: 30px; */
+  margin-top: 30px;
 }
 
 .font-bold {
@@ -166,10 +167,30 @@ a {
 
 .heading-sub {
   font-size: 30px;
+  border-bottom: 1px dotted rgba(0,0,0,0.3);
 }
 
 .inner-content {
-  padding: 0px 20px;
+  padding: 20px 20px;
+}
+
+.boxShadow {
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+}
+
+.padding20{
+  padding: 20px;
+}
+
+.paddingBottom20 {
+  /* padding-bottom: 20px; */
+  margin-bottom: 20px;
+}
+
+.subtitle-heading {
+  font-weight: 600;
+  margin-top: 20px;
+  font-size: 20px;
 }
 
 @media only screen and (min-width: 300px) {

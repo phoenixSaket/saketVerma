@@ -4,10 +4,9 @@ function Content(props) {
     const data = props;
     console.log(data.title);
     return (
-        <div className="aboutMe">
+        <div className="aboutMe" style={{boxShadow: '0px 0px 5px rgba(0,0,0,0.1)'}}>
             <div className="inner-content">
-                <span className="center-text heading-sub padding-top-down">{data.title}</span>
-                <br></br>
+                <span className="center-text heading-sub paddingBottom20">{data.title}</span>
                 <span className="font-bold">
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{data.subtitle}
                 </span>

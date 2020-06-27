@@ -1,0 +1,105 @@
+.internshipContainer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.company {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  min-width: 40%;
+}
+
+.topContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.textContainerTop {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.textContainerBottom {
+  margin-top: 20px;
+}
+
+.CompanyName {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.CompanyNameBottom {
+  font-weight: 600;
+  font-size: 18px;
+  padding-bottom: 15px;
+  width: 100%;
+  display: flex;
+}
+
+.aboutCompany {
+  /* text-align: right; */
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 60%;
+}
+
+.companyDescription {
+  font-size: 14px;
+}
+
+.workLink {
+  /* margin-top: 10px; */
+  text-decoration-style: solid !important;
+  text-decoration-color: darkblue !important;
+  color: #007bff !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.inline {
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (min-width: 300px) {
+  /* Mobile Devices */
+
+  .noWrapOnMobile {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .aboutCompany {
+    max-width: 100%;
+    /* text-align: center;  */
+  }
+
+  .CompanyNameBottom {
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  /* Mobile Devices */
+
+  .noWrapOnMobile {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .aboutCompany {
+    max-width: 60%;
+    /* text-align: center;  */
+  }
+  
+  .CompanyNameBottom {
+    justify-content: flex-start;
+  }
+}

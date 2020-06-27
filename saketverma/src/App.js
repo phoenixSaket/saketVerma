@@ -4,6 +4,7 @@ import "./App.css";
 import { Container, Navbar } from "react-bootstrap";
 import Content from "./Components/Content";
 import Education from "./Components/Education";
+import ExperienceAndWork from "./Components/ExperienceAndWork";
 
 function App() {
   // const height = screen.height;
@@ -73,7 +74,7 @@ function App() {
               </div>
             </div>
             <Content
-              title="About Me"
+              title="ABOUT ME"
               subtitle="Hello, Saket here !"
               content="I am a web designer/developer focused on crafting great web experiences.
             Designing and Coding have been my passion since the days I started working with computers.
@@ -82,6 +83,10 @@ function App() {
             <div style={{ marginTop: '40px' }}>
               <Education />
             </div>
+            <div style={{ marginTop: '40px' }}>
+              <ExperienceAndWork />
+            </div>
+
           </div>
           <div className="sidebar-container tabletPlus">
             <div className="sidebar">

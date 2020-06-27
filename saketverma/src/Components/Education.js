@@ -4,9 +4,9 @@ import { Row, Col } from 'react-bootstrap';
 
 function Education() {
     return (
-        <div>
-            <span className="center-text heading-sub padding-top-down">
-                Education
+        <div className="boxShadow padding20">
+            <span className="center-text heading-sub">
+                EDUCATION
             </span>
             <div className="Education-Container">
                 
