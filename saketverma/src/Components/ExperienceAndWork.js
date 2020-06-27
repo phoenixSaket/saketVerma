@@ -81,27 +81,24 @@ function ExperienceAndWork() {
             </Carousel.Item>
           </Carousel>
           <div className="mini-Description padding20">
+            THE ABOVE MENTIONED ARE SOME THEMES THAT I HAVE CREATED USING KLWP.
+            <br /><br />
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             KLWP stands for Kustom Live Wallpapers.
             KLWP enables you to change the theme on your android smartphone and make it customizable as you want.
             Once applied on your Lock Screen or Home Screen or both,
             the Live Wallpaper will make your device beautiful and unique and you can set it for
             various possible daily tasks and information.
-            <br />
-            <br />
-            THE ABOVE MENTIONED ARE SOME THEMES THAT I HAVE CREATED USIND KLWP.
-          <br />
-            <br />
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br /><br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             Additionally you can use control statements, loops, APIs apn can parse RSS, JSON, XML files.
-          Design is basically set using semaphores and have similar concepts ike onClick event to change semaphores.
-            <br />
-            <br />
+            Design is basically set using semaphores and have similar concepts ike onClick event to change semaphores.
+            <br /><br />
             <a className="workLink" href="https://play.google.com/store/apps/details?id=org.kustom.wallpaper&hl=en_IN"
               rel='noopener noreferrer' target="_blank">
               {/* <i className="fa fa-android"></i> */}
             KLWP on Google Play Store
-          </a>
+            </a>
           </div>
         </div>
       </div>
