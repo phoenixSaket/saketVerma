@@ -91,7 +91,7 @@ function ExperienceAndWork() {
             various possible daily tasks and information.
             <br /><br />
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Additionally you can use control statements, loops, APIs apn can parse RSS, JSON, XML files.
+            Additionally you can use control statements, loops, APIs and can parse RSS, JSON, XML files.
             Design is basically set using semaphores and have similar concepts ike onClick event to change semaphores.
             <br /><br />
             <a className="workLink" href="https://play.google.com/store/apps/details?id=org.kustom.wallpaper&hl=en_IN"
