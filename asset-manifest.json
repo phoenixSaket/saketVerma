@@ -1,27 +1,31 @@
 {
   "files": {
     "main.css": "/saketVerma/static/css/main.b381f114.chunk.css",
-    "main.js": "/saketVerma/static/js/main.fd2e757c.chunk.js",
-    "main.js.map": "/saketVerma/static/js/main.fd2e757c.chunk.js.map",
+    "main.js": "/saketVerma/static/js/main.729a2ac9.chunk.js",
+    "main.js.map": "/saketVerma/static/js/main.729a2ac9.chunk.js.map",
     "runtime-main.js": "/saketVerma/static/js/runtime-main.7747ab14.js",
     "runtime-main.js.map": "/saketVerma/static/js/runtime-main.7747ab14.js.map",
     "static/css/2.af3c1da9.chunk.css": "/saketVerma/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.4e9a39ea.chunk.js": "/saketVerma/static/js/2.4e9a39ea.chunk.js",
-    "static/js/2.4e9a39ea.chunk.js.map": "/saketVerma/static/js/2.4e9a39ea.chunk.js.map",
+    "static/js/2.7339b152.chunk.js": "/saketVerma/static/js/2.7339b152.chunk.js",
+    "static/js/2.7339b152.chunk.js.map": "/saketVerma/static/js/2.7339b152.chunk.js.map",
     "index.html": "/saketVerma/index.html",
-    "precache-manifest.d24f99f4d5fd91eebfe2266b5ebae9a8.js": "/saketVerma/precache-manifest.d24f99f4d5fd91eebfe2266b5ebae9a8.js",
+    "precache-manifest.5895b660ec5a75fb46d25ae9aa549bb4.js": "/saketVerma/precache-manifest.5895b660ec5a75fb46d25ae9aa549bb4.js",
     "service-worker.js": "/saketVerma/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/saketVerma/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.b381f114.chunk.css.map": "/saketVerma/static/css/main.b381f114.chunk.css.map",
-    "static/js/2.4e9a39ea.chunk.js.LICENSE.txt": "/saketVerma/static/js/2.4e9a39ea.chunk.js.LICENSE.txt",
+    "static/js/2.7339b152.chunk.js.LICENSE.txt": "/saketVerma/static/js/2.7339b152.chunk.js.LICENSE.txt",
     "static/media/App.css": "/saketVerma/static/media/BG.ae384ac8.png",
+    "static/media/Corona.png": "/saketVerma/static/media/Corona.7756de0d.png",
+    "static/media/Covered2.png": "/saketVerma/static/media/Covered2.99bf09fe.png",
+    "static/media/Quick.png": "/saketVerma/static/media/Quick.d3a2da57.png",
+    "static/media/Quickv2.png": "/saketVerma/static/media/Quickv2.03320140.png",
     "static/media/SaketVerma.jpg": "/saketVerma/static/media/SaketVerma.ce96a8c3.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.7747ab14.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.4e9a39ea.chunk.js",
+    "static/js/2.7339b152.chunk.js",
     "static/css/main.b381f114.chunk.css",
-    "static/js/main.fd2e757c.chunk.js"
+    "static/js/main.729a2ac9.chunk.js"
   ]
 }
