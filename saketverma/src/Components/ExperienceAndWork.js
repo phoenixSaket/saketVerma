@@ -34,7 +34,7 @@ function ExperienceAndWork() {
         />
         <Company 
           companyName="ScrollRight"
-          imageLink={require("../Images/sr_new.png")}
+          imageLink={require("../Images/sr_mukul.png")}
           type="Full Time"
           workPeriod="Since June, 2020"
           workingAs= {[
