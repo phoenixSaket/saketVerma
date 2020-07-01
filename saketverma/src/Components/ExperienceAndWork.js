@@ -22,7 +22,7 @@ function ExperienceAndWork() {
                   PlexusMD
               </div>
                 <div className="workPeriod">
-                  Since January 2020
+                  Jan, 2020 - June, 2020
               </div>
               </div>
             </div>
@@ -81,8 +81,8 @@ function ExperienceAndWork() {
             </Carousel.Item>
           </Carousel>
           <div className="mini-Description padding20">
-            THE ABOVE MENTIONED ARE SOME THEMES THAT I HAVE CREATED USING KLWP.
-            <br /><br />
+            <div className="text-center w-100 font-bold">THE ABOVE MENTIONED ARE SOME THEMES THAT I HAVE CREATED USING KLWP.</div>
+            <br />
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             KLWP stands for Kustom Live Wallpapers.
             KLWP enables you to change the theme on your android smartphone and make it customizable as you want.
@@ -94,11 +94,13 @@ function ExperienceAndWork() {
             Additionally you can use control statements, loops, APIs and can parse RSS, JSON, XML files.
             Design is basically set using semaphores and have similar concepts ike onClick event to change semaphores.
             <br /><br />
-            <a className="workLink" href="https://play.google.com/store/apps/details?id=org.kustom.wallpaper&hl=en_IN"
-              rel='noopener noreferrer' target="_blank">
-              {/* <i className="fa fa-android"></i> */}
-            KLWP on Google Play Store
+            <div className="text-center w-100 font-bold">
+              <a className="workLink" href="https://play.google.com/store/apps/details?id=org.kustom.wallpaper&hl=en_IN"
+                rel='noopener noreferrer' target="_blank">
+                {/* <i className="fa fa-android"></i> */}
+                KLWP on Google Play Store
             </a>
+            </div>
           </div>
         </div>
       </div>
