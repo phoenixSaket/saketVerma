@@ -56,7 +56,7 @@ function ExperienceAndWork() {
           </div>
         </div>
       </div>
-      <div className="workContainer boxShadow semi-white-bg">
+      <div className="workContainer boxShadow semi-white-bg" style={{ marginTop: '40px' }}>
         <div className="padding20">
           <div className="center-text heading-sub">
             WORK
