@@ -38,7 +38,7 @@ function ExperienceAndWork() {
           type="Full Time"
           workPeriod="Since June, 2020"
           workingAs= {[
-            "React Frontend Developer"
+            "Software Developer"
           ]}
           workLink= {[
             "https://www.scrollright.com"
