@@ -2,6 +2,7 @@ import React from 'react';
 // import { Row, Col } from 'react-bootstrap';
 import "./ExperienceAndWork.css";
 import { Carousel } from 'react-bootstrap';
+import Company from './Company';
 
 function ExperienceAndWork() {
   return (
@@ -10,51 +11,42 @@ function ExperienceAndWork() {
         <div className="center-text heading-sub">
           EXPERIENCE
       </div>
-        <div className="center-text subtitle-heading">
-          INTERNSHIP
-      </div>
-        <div className="internshipContainer">
-          <div className="company noWrapOnMobile">
-            <div className="topContainer">
-              <img alt="PlexusMd" src={require('../Images/PlexusMD.png')} style={{ width: '60px', height: '60px', borderRadius: '5px' }} />
-              <div className="textContainerTop">
-                <div className="CompanyName">
-                  PlexusMD
-              </div>
-                <div className="workPeriod">
-                  Jan, 2020 - June, 2020
-              </div>
-              </div>
-            </div>
-            <div className="textContainerBottom">
-              <span>React Frontend Developer</span>
-              <br />
-              <span>Search Engine Optimizations</span>
-            </div>
-            <div className="workLink">
-              <a className="workLink" href="https://www.plexusmd.com" rel='noopener noreferrer' target="_blank" >www.plexusmd.com</a>
-              <a className="workLink inline"
-                href="https://www.linkedin.com/company/plexusmd/" rel='noopener noreferrer' target="_blank" >
-                {/* <i className="fa fa-linkedin-square" style={{paddingRight: '5px'}}/> */}
-              PlexusMD's LinkedIn Profile
-            </a>
-            </div>
-          </div>
-          <div className="aboutCompany">
-            <div className="CompanyNameBottom">
-              About PlexusMD
-          </div>
-            <div className="companyDescription">
-              PlexusMD is an online professional network exclusively for medical professionals and healthcare organisations.
-              With lakhs of doctors and hundreds of hospitals across India,
-              we are India's fastest growing online community of healthcare professionals.
-              PlexusMD helps doctors create their professional identity on the web,
-              stay updated with the latest news and developments in their specialty,
-              find & connect with other medical professionals and apply to the best jobs,
-              fellowships and courses from leading institutions.
-          </div>
-          </div>
-        </div>
+        <Company 
+          companyName="PlexusMD"
+          imageLink={require("../Images/PlexusMD.png")}
+          type="Internship"
+          workPeriod="Jan, 2020 - June, 2020"
+          workingAs= {[
+            "React Frontend Developer",
+            "Search Engine Optimizations"
+          ]}
+          workLink= {[
+            "https://www.plexusmd.com",
+            "https://www.linkedin.com/company/plexusmd/"
+          ]}
+          aboutCompany="PlexusMD is an online professional network exclusively for medical professionals and healthcare organisations.
+          With lakhs of doctors and hundreds of hospitals across India,
+          we are India's fastest growing online community of healthcare professionals.
+          PlexusMD helps doctors create their professional identity on the web,
+          stay updated with the latest news and developments in their specialty,
+          find & connect with other medical professionals and apply to the best jobs,
+          fellowships and courses from leading institutions."
+        />
+        <Company 
+          companyName="ScrollRight"
+          imageLink={require("../Images/sr_new.png")}
+          type="Full Time"
+          workPeriod="Since June, 2020"
+          workingAs= {[
+            "React Frontend Developer"
+          ]}
+          workLink= {[
+            "https://www.scrollright.com"
+          ]}
+          aboutCompany="ScrollRight is a online freelance service provider and product building company where you can ask to create
+          your own app, website, software. Also, we provided freelance support to any firm, company who needs it. Think Big.
+          Think Innovative. Think ScrollRight !"
+        />
       </div>
       <div className="workContainer boxShadow semi-white-bg" style={{ marginTop: '40px' }}>
         <div className="padding20">
