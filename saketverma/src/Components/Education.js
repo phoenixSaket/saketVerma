@@ -4,7 +4,7 @@ import { Row, Col } from 'react-bootstrap';
 
 function Education() {
     return (
-        <div className="boxShadow padding20">
+        <div className="boxShadow padding20 semi-white-bg">
             <span className="center-text heading-sub">
                 EDUCATION
             </span>

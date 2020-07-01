@@ -88,7 +88,7 @@ function App() {
             </div>
 
           </div>
-          <div className="sidebar-container tabletPlus">
+          <div className="sidebar-container tabletPlus ">
             <div className="sidebar">
               <img
                 className="avatar-mini shadows"

@@ -6,7 +6,7 @@ import { Carousel } from 'react-bootstrap';
 function ExperienceAndWork() {
   return (
     <div>
-      <div className="boxShadow padding20 paddingBottom20">
+      <div className="boxShadow padding20 paddingBottom20 semi-white-bg">
         <div className="center-text heading-sub">
           EXPERIENCE
       </div>
@@ -56,7 +56,7 @@ function ExperienceAndWork() {
           </div>
         </div>
       </div>
-      <div className="workContainer boxShadow ">
+      <div className="workContainer boxShadow semi-white-bg">
         <div className="padding20">
           <div className="center-text heading-sub">
             WORK
