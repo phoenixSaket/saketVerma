@@ -15,9 +15,11 @@ function App() {
         <div className="navbar-container">
           <Navbar fixed="top">
             <Navbar.Brand>
-              <span 
+              <span
               // className="notOnMobile"
-              >Saket Verma</span>
+              >
+                Saket Verma
+              </span>
             </Navbar.Brand>
             <div className="sidebar-top mobile-only">
               <img
@@ -45,27 +47,47 @@ function App() {
                     <h5>Developer | Designer</h5>
                   </div>
                   <div className="social-media">
-                    <a href="https://www.facebook.com/iamsaket.verma" rel='noopener noreferrer' target="_blank">
+                    <a
+                      href="https://www.facebook.com/iamsaket.verma"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
                       <span>
                         <i className="fa fa-facebook" />
                       </span>
                     </a>
-                    <a href="https://www.instagram.com/saket.verma/" rel='noopener noreferrer' target="_blank">
+                    <a
+                      href="https://www.instagram.com/saket.verma/"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
                       <span>
                         <i className="fa fa-instagram" />
                       </span>
                     </a>
-                    <a href="https://www.reddit.com/user/phoenix_saket" rel='noopener noreferrer' target="_blank">
+                    <a
+                      href="https://www.reddit.com/user/phoenix_saket"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
                       <span>
                         <i className="fa fa-reddit-alien" />
                       </span>
                     </a>
-                    <a href="https://twitter.com/phoenix_saket" rel='noopener noreferrer' target="_blank">
+                    <a
+                      href="https://twitter.com/phoenix_saket"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
                       <span>
                         <i className="fa fa-twitter" />
                       </span>
                     </a>
-                    <a href="https://github.com/phoenixSaket" rel='noopener noreferrer' target="_blank">
+                    <a
+                      href="https://github.com/phoenixSaket"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
                       <span>
                         <i className="fa fa-github" />
                       </span>
@@ -81,10 +103,10 @@ function App() {
             Designing and Coding have been my passion since the days I started working with computers.
             I enjoy creating beautifully designed, intuitive and functional websites, softwares, live wallpapers."
             />
-            <div style={{ marginTop: '40px' }}>
+            <div style={{ marginTop: "40px" }}>
               <Education />
             </div>
-            <div style={{ marginTop: '40px' }}>
+            <div style={{ marginTop: "40px" }}>
               <ExperienceAndWork />
             </div>
             {/* <div style={{ marginTop: '40px' }}>
@@ -103,7 +125,7 @@ function App() {
           </div>
         </div>
       </Container>
-    </div >
+    </div>
   );
 }
 
