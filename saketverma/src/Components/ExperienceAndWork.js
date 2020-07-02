@@ -20,15 +20,11 @@ function ExperienceAndWork() {
       src: require('../Images/Photos/Globe.png'),
       width: 3,
       height: 2
-    }, {
+    },
+    {
       src: require('../Images/Photos/Bulb.png'),
       width: 2.5,
       height: 2
-    },
-    {
-      src: require('../Images/Photos/Cube.png'),
-      width: 2,
-      height: 2.5
     },
     {
       src: require('../Images/Photos/Goa.png'),
@@ -45,6 +41,27 @@ function ExperienceAndWork() {
       width: 2,
       height: 2.5
     },
+    {
+      src: require('../Images/Photos/Clouds.jpg'),
+      width: 2.5,
+      height: 2
+    },
+    {
+      src: require('../Images/Photos/Cube.png'),
+      width: 2,
+      height: 2.5
+    },
+    {
+      src: require('../Images/Photos/Keyboard.jpg'),
+      width: 2.5,
+      height: 2
+    },
+    {
+      src: require('../Images/Photos/Leaves.jpg'),
+      width: 2.5,
+      height: 2
+    },
+    
   ];
   return (
     <div>
