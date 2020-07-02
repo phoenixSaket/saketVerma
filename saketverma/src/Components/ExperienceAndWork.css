@@ -56,9 +56,9 @@
 
 .workLink {
   /* margin-top: 10px; */
-  text-decoration-style: solid !important;
-  text-decoration-color: darkblue !important;
-  color: #007bff !important;
+  text-decoration-style: none !important;
+  /* text-decoration-color: darkblue !important; */
+  color: #ffffff !important;
   display: flex;
   flex-direction: column;
 }
