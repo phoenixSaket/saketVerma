@@ -47,14 +47,14 @@ function ExperienceAndWork() {
       height: 2
     },
     {
-      src: require('../Images/Photos/Cube.png'),
-      width: 2,
-      height: 2.5
-    },
-    {
       src: require('../Images/Photos/Keyboard.jpg'),
       width: 2.5,
       height: 2
+    },
+    {
+      src: require('../Images/Photos/Cube.png'),
+      width: 2,
+      height: 2.5
     },
     {
       src: require('../Images/Photos/Leaves.jpg'),
