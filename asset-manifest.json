@@ -1,27 +1,30 @@
 {
   "files": {
     "main.css": "/saketVerma/static/css/main.24c6cd73.chunk.css",
-    "main.js": "/saketVerma/static/js/main.0449f453.chunk.js",
-    "main.js.map": "/saketVerma/static/js/main.0449f453.chunk.js.map",
+    "main.js": "/saketVerma/static/js/main.a4e2a042.chunk.js",
+    "main.js.map": "/saketVerma/static/js/main.a4e2a042.chunk.js.map",
     "runtime-main.js": "/saketVerma/static/js/runtime-main.7747ab14.js",
     "runtime-main.js.map": "/saketVerma/static/js/runtime-main.7747ab14.js.map",
     "static/css/2.af3c1da9.chunk.css": "/saketVerma/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.90565f26.chunk.js": "/saketVerma/static/js/2.90565f26.chunk.js",
-    "static/js/2.90565f26.chunk.js.map": "/saketVerma/static/js/2.90565f26.chunk.js.map",
+    "static/js/2.c0ceb8c8.chunk.js": "/saketVerma/static/js/2.c0ceb8c8.chunk.js",
+    "static/js/2.c0ceb8c8.chunk.js.map": "/saketVerma/static/js/2.c0ceb8c8.chunk.js.map",
     "index.html": "/saketVerma/index.html",
-    "precache-manifest.f4aabd378e42c48444c12ad85fadcaa9.js": "/saketVerma/precache-manifest.f4aabd378e42c48444c12ad85fadcaa9.js",
+    "precache-manifest.288994e1bb9891225008f0131611ef6c.js": "/saketVerma/precache-manifest.288994e1bb9891225008f0131611ef6c.js",
     "service-worker.js": "/saketVerma/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/saketVerma/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.24c6cd73.chunk.css.map": "/saketVerma/static/css/main.24c6cd73.chunk.css.map",
-    "static/js/2.90565f26.chunk.js.LICENSE.txt": "/saketVerma/static/js/2.90565f26.chunk.js.LICENSE.txt",
+    "static/js/2.c0ceb8c8.chunk.js.LICENSE.txt": "/saketVerma/static/js/2.c0ceb8c8.chunk.js.LICENSE.txt",
     "static/media/App.css": "/saketVerma/static/media/BG_new.b8d49645.png",
     "static/media/Bulb.png": "/saketVerma/static/media/Bulb.3cce02fe.png",
+    "static/media/Clouds.jpg": "/saketVerma/static/media/Clouds.39a86228.jpg",
     "static/media/Corona.png": "/saketVerma/static/media/Corona.7756de0d.png",
     "static/media/Covered2.png": "/saketVerma/static/media/Covered2.99bf09fe.png",
     "static/media/Cube.png": "/saketVerma/static/media/Cube.e860dfa1.png",
     "static/media/Flower.jpg": "/saketVerma/static/media/Flower.95b75a0e.jpg",
     "static/media/Globe.png": "/saketVerma/static/media/Globe.60650ed4.png",
     "static/media/Goa.png": "/saketVerma/static/media/Goa.4f98bcff.png",
+    "static/media/Keyboard.jpg": "/saketVerma/static/media/Keyboard.86bb200f.jpg",
+    "static/media/Leaves.jpg": "/saketVerma/static/media/Leaves.513ccc34.jpg",
     "static/media/Quick.png": "/saketVerma/static/media/Quick.d3a2da57.png",
     "static/media/Quickv2.png": "/saketVerma/static/media/Quickv2.03320140.png",
     "static/media/SaketVerma.jpg": "/saketVerma/static/media/SaketVerma.ce96a8c3.jpg",
@@ -32,8 +35,8 @@
   "entrypoints": [
     "static/js/runtime-main.7747ab14.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.90565f26.chunk.js",
+    "static/js/2.c0ceb8c8.chunk.js",
     "static/css/main.24c6cd73.chunk.css",
-    "static/js/main.0449f453.chunk.js"
+    "static/js/main.a4e2a042.chunk.js"
   ]
 }
