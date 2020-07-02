@@ -5,6 +5,7 @@ import { Container, Navbar } from "react-bootstrap";
 import Content from "./Components/Content";
 import Education from "./Components/Education";
 import ExperienceAndWork from "./Components/ExperienceAndWork";
+// import ContactMe from "./Components/ContactMe";
 
 function App() {
   // const height = screen.height;
@@ -86,7 +87,9 @@ function App() {
             <div style={{ marginTop: '40px' }}>
               <ExperienceAndWork />
             </div>
-
+            {/* <div style={{ marginTop: '40px' }}>
+              <ContactMe />
+            </div> */}
           </div>
           <div className="sidebar-container tabletPlus ">
             <div className="sidebar">

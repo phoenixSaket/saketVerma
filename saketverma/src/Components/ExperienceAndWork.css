@@ -68,6 +68,18 @@
     flex-direction: row;
 }
 
+a#otherWork-tab-Photography, a#otherWork-tab-KLWP {
+  width: 50%;
+}
+
+nav.nav.nav-tabs {
+  padding: 20px 20px 0 20px
+}
+
+.nav-link {
+  background-color: #f4f4f4;
+}
+
 @media only screen and (min-width: 300px) {
   /* Mobile Devices */
 
