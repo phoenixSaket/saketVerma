@@ -34,6 +34,9 @@
   justify-content: center;
 }
 
+.navbar-toggler {
+  padding: 0.5rem 0rem;
+}
 
 .navbar {
   /* background-color: transparent; */
