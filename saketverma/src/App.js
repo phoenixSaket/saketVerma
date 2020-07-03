@@ -1,10 +1,11 @@
 import React from "react";
 // import logo from './logo.svg';
 import "./App.css";
-import { Container, Navbar } from "react-bootstrap";
+import { Container, Navbar, Nav } from "react-bootstrap";
 import Content from "./Components/Content";
 import Education from "./Components/Education";
-import ExperienceAndWork from "./Components/ExperienceAndWork";
+import Experience from "./Components/Experience";
+import Other from "./Components/Other";
 // import ContactMe from "./Components/ContactMe";
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
     <div className="homepage">
       <Container className="containerMain" size="md">
         <div className="navbar-container">
-          <Navbar fixed="top">
+          <Navbar fixed="top" expand="sm">
             <Navbar.Brand>
               <span
               // className="notOnMobile"
@@ -21,13 +22,30 @@ function App() {
                 Saket Verma
               </span>
             </Navbar.Brand>
-            <div className="sidebar-top mobile-only">
+            {/* <div className="sidebar-top mobile-only">
               <img
                 className="avatar-mini shadows"
                 src={require("./Images/SaketVerma.jpg")}
                 alt="my Avatar"
-              />
-            </div>
+              /> */}
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            {/* </div> */}
+            <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
+              <Nav className="justify-content-end ">
+                <Nav.Link href="#content" className="nav-links">
+                  About Me
+                </Nav.Link>
+                <Nav.Link href="#education" className="nav-links">
+                  Education
+                </Nav.Link>
+                <Nav.Link href="#experience" className="nav-links">
+                  Experience
+                </Nav.Link>
+                <Nav.Link href="#other" className="nav-links">
+                  Other
+                </Nav.Link>
+              </Nav>
+            </Navbar.Collapse>
           </Navbar>
         </div>
         <div className="container-and-sidebar">
@@ -96,6 +114,9 @@ function App() {
                 </div>
               </div>
             </div>
+            <div id="content" 
+            // style={{ marginTop: "40px" }}
+            >
             <Content
               title="ABOUT ME"
               subtitle="Hello, Saket here !"
@@ -103,15 +124,22 @@ function App() {
             Designing and Coding have been my passion since the days I started working with computers.
             I enjoy creating beautifully designed, intuitive and functional websites, softwares, live wallpapers."
             />
-            <div style={{ marginTop: "40px" }}>
+            </div>
+            <div id="education" 
+            // style={{ marginTop: "40px" }}
+            >
               <Education />
             </div>
-            <div style={{ marginTop: "40px" }}>
-              <ExperienceAndWork />
+            <div id="experience" 
+            // style={{ marginTop: "40px" }}
+            >
+              <Experience />
             </div>
-            {/* <div style={{ marginTop: '40px' }}>
-              <ContactMe />
-            </div> */}
+            <div id="other" 
+            // style={{ marginTop: "30px" }}
+            >
+              <Other />
+            </div>
           </div>
           <div className="sidebar-container tabletPlus ">
             <div className="sidebar">

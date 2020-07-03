@@ -206,19 +206,36 @@ a {
   background-color: rgba(255,255,255,0.9);
 }
 
+.nav-links {
+  font-size: 18px;
+  color: #aaaaaa !important;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: rgba(0,0,0,0) !important;
+}
+
+#content, #education, #experience, #other {
+  padding-top: 40px;
+}
+
+.nav-link.active {
+  background-color: #e3e3e3;
+  color: black !important;
+}
 
 @media only screen and (min-width: 300px) {
   
   /* FOR MOBILE DEVICES */
   
   .tabletPlus {
-    display: none;
+    display: none !important;
   }
   .mobile-only {
-    display: block;
+    display: block !important;
   }
   .mobile-center {
-    text-align: center;
+    text-align: center !important;
   }
   .h1,
   h1 {
@@ -231,11 +248,11 @@ a {
   }
 
   .notOnMobile {
-    display: none;
+    display: none !important;
   }
 
   .container-inner {
-    padding: 0;
+    padding: 0 !important;
   }
 
 }
@@ -245,15 +262,15 @@ a {
   /* FOR TABLET AND ABOVE */
 
   .tabletPlus {
-    display: flex;
+    display: flex !important;
   }
 
   .mobile-only {
-    display: none;
+    display: none !important;
   }
 
   .mobile-center {
-    text-align: left;
+    text-align: left !important;
   }
   .h1,
   h1 {
@@ -266,10 +283,10 @@ a {
   }
 
   .notOnMobile {
-    display: block;
+    display: block !important;
   }
 
   .container-inner {
-    padding: 20px;
+    padding: 20px !important;
   }
 }
