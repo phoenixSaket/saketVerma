@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/saketVerma/static/css/main.a8da5989.chunk.css",
-    "main.js": "/saketVerma/static/js/main.61570216.chunk.js",
-    "main.js.map": "/saketVerma/static/js/main.61570216.chunk.js.map",
+    "main.css": "/saketVerma/static/css/main.134f9f42.chunk.css",
+    "main.js": "/saketVerma/static/js/main.198cb286.chunk.js",
+    "main.js.map": "/saketVerma/static/js/main.198cb286.chunk.js.map",
     "runtime-main.js": "/saketVerma/static/js/runtime-main.7747ab14.js",
     "runtime-main.js.map": "/saketVerma/static/js/runtime-main.7747ab14.js.map",
     "static/css/2.af3c1da9.chunk.css": "/saketVerma/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.14c91529.chunk.js": "/saketVerma/static/js/2.14c91529.chunk.js",
-    "static/js/2.14c91529.chunk.js.map": "/saketVerma/static/js/2.14c91529.chunk.js.map",
+    "static/js/2.0526b686.chunk.js": "/saketVerma/static/js/2.0526b686.chunk.js",
+    "static/js/2.0526b686.chunk.js.map": "/saketVerma/static/js/2.0526b686.chunk.js.map",
     "index.html": "/saketVerma/index.html",
-    "precache-manifest.1866d6b1d28c1f4dacb4ebcf68618b1f.js": "/saketVerma/precache-manifest.1866d6b1d28c1f4dacb4ebcf68618b1f.js",
+    "precache-manifest.5a51abc4871b78614e63ddafc79bf28b.js": "/saketVerma/precache-manifest.5a51abc4871b78614e63ddafc79bf28b.js",
     "service-worker.js": "/saketVerma/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/saketVerma/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.a8da5989.chunk.css.map": "/saketVerma/static/css/main.a8da5989.chunk.css.map",
-    "static/js/2.14c91529.chunk.js.LICENSE.txt": "/saketVerma/static/js/2.14c91529.chunk.js.LICENSE.txt",
+    "static/css/main.134f9f42.chunk.css.map": "/saketVerma/static/css/main.134f9f42.chunk.css.map",
+    "static/js/2.0526b686.chunk.js.LICENSE.txt": "/saketVerma/static/js/2.0526b686.chunk.js.LICENSE.txt",
     "static/media/App.css": "/saketVerma/static/media/BG_new.b8d49645.png",
     "static/media/Bulb.png": "/saketVerma/static/media/Bulb.3cce02fe.png",
     "static/media/Clouds.jpg": "/saketVerma/static/media/Clouds.39a86228.jpg",
@@ -33,8 +33,8 @@
   "entrypoints": [
     "static/js/runtime-main.7747ab14.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.14c91529.chunk.js",
-    "static/css/main.a8da5989.chunk.css",
-    "static/js/main.61570216.chunk.js"
+    "static/js/2.0526b686.chunk.js",
+    "static/css/main.134f9f42.chunk.css",
+    "static/js/main.198cb286.chunk.js"
   ]
 }
