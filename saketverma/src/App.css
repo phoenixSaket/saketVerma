@@ -48,6 +48,7 @@
   /* margin-bottom: 10px; */
   padding: 10px !important;
   box-shadow: 0px 0px 4px rgba(0,0,0,0.6);
+  /* align-content: center !important; */
 }
 
 .container-inner {
@@ -209,6 +210,7 @@ a {
 .nav-links {
   font-size: 18px;
   color: #aaaaaa !important;
+  padding: 8px 20px 8px 20px !important;
 }
 
 .navbar-light .navbar-toggler {
@@ -216,7 +218,7 @@ a {
 }
 
 #content, #education, #experience, #other {
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 .nav-link.active {
@@ -224,6 +226,34 @@ a {
   color: black !important;
 }
 
+.navbar-expand-sm {
+  height: 45px !important;
+  padding: 0 10px 0px 10px !important;
+  /* align-content: center !important; */
+}
+
+button.navbar-toggler {
+  display: flex;
+  justify-content: flex-end;
+  /* margin-right: 0; */
+}
+
+.toggler-custom {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+}
+
+.navbar-inner-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+:focus {
+  outline: none !important;
+}
 @media only screen and (min-width: 300px) {
   
   /* FOR MOBILE DEVICES */

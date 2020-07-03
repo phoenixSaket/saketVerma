@@ -15,37 +15,41 @@ function App() {
       <Container className="containerMain" size="md">
         <div className="navbar-container">
           <Navbar fixed="top" expand="sm">
-            <Navbar.Brand>
-              <span
-              // className="notOnMobile"
-              >
-                Saket Verma
+            <div className="navbar-inner-container">
+              <Navbar.Brand>
+                <span
+                // className="notOnMobile"
+                >
+                  Saket Verma
               </span>
-            </Navbar.Brand>
-            {/* <div className="sidebar-top mobile-only">
+              </Navbar.Brand>
+              {/* <div className="sidebar-top mobile-only">
               <img
                 className="avatar-mini shadows"
                 src={require("./Images/SaketVerma.jpg")}
                 alt="my Avatar"
               /> */}
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-            {/* </div> */}
-            <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
-              <Nav className="justify-content-end ">
-                <Nav.Link href="#content" className="nav-links">
-                  About Me
+              <div className="toggler-custom">
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                {/* </div> */}
+                <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
+                  <Nav className="justify-content-end ">
+                    <Nav.Link href="#content" className="nav-links">
+                      About Me
                 </Nav.Link>
-                <Nav.Link href="#education" className="nav-links">
-                  Education
+                    <Nav.Link href="#education" className="nav-links">
+                      Education
                 </Nav.Link>
-                <Nav.Link href="#experience" className="nav-links">
-                  Experience
+                    <Nav.Link href="#experience" className="nav-links">
+                      Experience
                 </Nav.Link>
-                <Nav.Link href="#other" className="nav-links">
-                  Other
+                    <Nav.Link href="#other" className="nav-links">
+                      Other
                 </Nav.Link>
-              </Nav>
-            </Navbar.Collapse>
+                  </Nav>
+                </Navbar.Collapse>
+              </div>
+            </div>
           </Navbar>
         </div>
         <div className="container-and-sidebar">
@@ -114,28 +118,28 @@ function App() {
                 </div>
               </div>
             </div>
-            <div id="content" 
+            <div id="content"
             // style={{ marginTop: "40px" }}
             >
-            <Content
-              title="ABOUT ME"
-              subtitle="Hello, Saket here !"
-              content="I am a web designer/developer focused on crafting great web experiences.
+              <Content
+                title="ABOUT ME"
+                subtitle="Hello, Saket here !"
+                content="I am a web designer/developer focused on crafting great web experiences.
             Designing and Coding have been my passion since the days I started working with computers.
             I enjoy creating beautifully designed, intuitive and functional websites, softwares, live wallpapers."
-            />
+              />
             </div>
-            <div id="education" 
+            <div id="education"
             // style={{ marginTop: "40px" }}
             >
               <Education />
             </div>
-            <div id="experience" 
+            <div id="experience"
             // style={{ marginTop: "40px" }}
             >
               <Experience />
             </div>
-            <div id="other" 
+            <div id="other"
             // style={{ marginTop: "30px" }}
             >
               <Other />
