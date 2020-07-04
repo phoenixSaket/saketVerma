@@ -11,18 +11,18 @@ import { Helmet } from "react-helmet";
 
 function App() {
   // const height = screen.height;
-  const avatar = require("./Images/myAvatar.png");
   return (
     <div className="homepage">
       <Helmet>
         <title>Saket Verma</title>
         <meta name="description" content="Saket's Homepage / Digital Resume" />
+        <meta name="image" contebt={require("./Images/myAvatar.png")} />
         <meta name="og:title" content="Saket Verma" />
         <meta name="og:description" content="Saket's Homepage / Digital Resume" />
-        <meta name="og:image" content={avatar} />
+        <meta name="og:image" content={require("./Images/myAvatar.png")} />
         <meta name="twitter:title" content="Saket Verma" />
         <meta name="twitter:description" content="Saket's Homepage / Digital Resume" />
-        <meta name="twitter:image" content={avatar} />
+        <meta name="twitter:image" content={require("./Images/myAvatar.png")} />
       </Helmet>
       <Container className="containerMain" size="md">
         <div className="navbar-container">
