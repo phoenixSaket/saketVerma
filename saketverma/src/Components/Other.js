@@ -3,8 +3,8 @@ import "./Experience.css";
 import { Carousel, Button, Tab, Tabs } from 'react-bootstrap';
 import Gallery from 'react-photo-gallery';
 
-function openNewTab() {
-  window.open("https://play.google.com/store/apps/details?id=org.kustom.wallpaper&hl=en_IN");
+function openNewTab(link) {
+  window.open(link);
 }
 
 function Other() {
@@ -17,7 +17,7 @@ function Other() {
     },
     {
       src: require('../Images/Photos/Globe.png'),
-      width: 3,
+      width: 3.4,
       height: 2
     },
     {
@@ -82,15 +82,27 @@ function Other() {
             <Carousel interval={2000} indicators={false}>
               <Carousel.Item>
                 <img alt="Quick for KLWP" src={require("../Images/KLWP/Quick.png")} style={{ width: '100%' }} />
+                <Carousel.Caption>
+                  <Button variant="light" onClick={() => openNewTab("https://www.reddit.com/r/androidthemes/comments/hbkloq/theme_quick_android_11_quick_settings_based_live/?utm_source=share&utm_medium=web2x")}>Quick for KLWP</Button>
+                </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
                 <img alt="Quick Version 2 for KLWP" src={require("../Images/KLWP/Quickv2.png")} style={{ width: '100%' }} />
+                <Carousel.Caption>
+                  <Button variant="light" onClick={() => openNewTab("https://www.reddit.com/r/androidthemes/comments/hcrym9/theme_quick_android_11/?utm_source=share&utm_medium=web2x")}>Quick Version 2 for KLWP</Button>
+                </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
-                <img alt="Covered for KLWP" src={require("../Images/KLWP/Covered2.png")} style={{ width: '100%' }} />
+                <img alt="Covered for KLWP" src={require("../Images/KLWP/Covered.png")} style={{ width: '100%' }} />
+                <Carousel.Caption>
+                  <Button variant="light" onClick={() => openNewTab("https://www.reddit.com/r/kustom/comments/dkq0zr/theme_covered_klwp/?utm_source=share&utm_medium=web2x")}>Covered for KLWP</Button>
+                </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
-                <img alt="Corona for KLWP" src={require("../Images/KLWP/Corona.png")} style={{ width: '100%' }} />
+                <img alt="Corona Live for KLWP" src={require("../Images/KLWP/Corona.png")} style={{ width: '100%' }} />
+                <Carousel.Caption>
+                  <Button variant="light" onClick={() => openNewTab("https://www.reddit.com/r/androidthemes/comments/frrhb3/theme_corona_stats/?utm_source=share&utm_medium=web2x")}>Corona Live for KLWP</Button>
+                </Carousel.Caption>
               </Carousel.Item>
             </Carousel>
             <div className="mini-Description padding20">
@@ -109,7 +121,7 @@ function Other() {
                 <br /><br />
               <div className="text-center w-100 font-bold">
                 <Button variant="info"
-                  onClick={openNewTab}
+                  onClick={() => openNewTab("https://play.google.com/store/apps/details?id=org.kustom.wallpaper&hl=en_IN")}
                 >
                   {/* <a className="workLink" href="https://play.google.com/store/apps/details?id=org.kustom.wallpaper&hl=en_IN"
                   rel='noopener noreferrer' target="_blank">

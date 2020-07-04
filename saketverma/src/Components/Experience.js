@@ -43,7 +43,7 @@ function ExperienceAndWork() {
           ]}
           aboutCompany="ScrollRight is a online freelance service provider and product building company where you can ask to create
           your own app, website, software. Also, we provided freelance support to any firm, company who needs it. Think Big.
-          Think Innovative. Think ScrollRight !"
+          Think Innovative. Think ScrollRight!"
         />
       </div>
     </div>

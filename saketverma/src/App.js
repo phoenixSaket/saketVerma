@@ -14,22 +14,12 @@ function App() {
     <div className="homepage">
       <Container className="containerMain" size="md">
         <div className="navbar-container">
-          <Navbar fixed="top" expand="sm">
-            <div className="topNoMobile" style={{ justifyContent: 'center', maxWidth: '855px', width: '100%' }}>
+          <Navbar expand="sm">
+            <div style={{ justifyContent: 'center', maxWidth: '840px', width: '100%' }}>
               <div className="navbar-inner-container">
                 <Navbar.Brand>
-                  <span
-                  // className="notOnMobile"
-                  >
-                    Saket Verma
-              </span>
+                  <span className="topNoMobile">Saket Verma</span>
                 </Navbar.Brand>
-                {/* <div className="sidebar-top mobile-only">
-              <img
-                className="avatar-mini shadows"
-                src={require("./Images/SaketVerma.jpg")}
-                alt="my Avatar"
-              /> */}
                 <div className="toggler-custom">
                   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                   {/* </div> */}
@@ -119,15 +109,15 @@ function App() {
                   </div>
                   <div className="personalContact">
                     <div className="personalPhone">
-                      <i className="fa fa-whatsapp" style={{ fontSize: '20px', marginRight: '10px' }}></i>
+                      <i className="fa fa-phone-square" style={{ fontSize: '18px', marginRight: '10px' }}></i>
                       +91-8668692038
                     </div>
                     <div className="personalMail">
-                      <i className="fa fa-envelope" style={{ fontSize: '20px', marginRight: '10px' }}></i>
+                      <i className="fa fa-envelope" style={{ fontSize: '15px', marginRight: '10px' }}></i>
                       develope.saket@gmail.com
                     </div>
                     <div className="personalMail">
-                      <i className="fa fa-envelope" style={{ fontSize: '20px', marginRight: '10px' }}></i>
+                      <i className="fa fa-envelope" style={{ fontSize: '15px', marginRight: '10px' }}></i>
                       saket.verma@scrollright.com
                     </div>
                   </div>
