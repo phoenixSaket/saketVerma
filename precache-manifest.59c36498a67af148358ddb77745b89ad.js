@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aa10aa465689f2d488c80b81bc13b23e",
+    "revision": "6598059444d360e7e52c9de97e37b446",
     "url": "/saketVerma/index.html"
   },
   {
-    "revision": "6e625cb515290d60566c",
+    "revision": "8f16884ba4776ce430d2",
     "url": "/saketVerma/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "28ba33ecc11db0c7aae9",
-    "url": "/saketVerma/static/css/main.db2902ec.chunk.css"
+    "revision": "73bc51845f273fcef6e5",
+    "url": "/saketVerma/static/css/main.8fb2f0e9.chunk.css"
   },
   {
-    "revision": "6e625cb515290d60566c",
-    "url": "/saketVerma/static/js/2.0526b686.chunk.js"
+    "revision": "8f16884ba4776ce430d2",
+    "url": "/saketVerma/static/js/2.a925885a.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/saketVerma/static/js/2.0526b686.chunk.js.LICENSE.txt"
+    "url": "/saketVerma/static/js/2.a925885a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "28ba33ecc11db0c7aae9",
-    "url": "/saketVerma/static/js/main.14166abe.chunk.js"
+    "revision": "73bc51845f273fcef6e5",
+    "url": "/saketVerma/static/js/main.25ca0816.chunk.js"
   },
   {
     "revision": "b9e9fa6507d6e989d917",
@@ -40,12 +40,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/saketVerma/static/media/Clouds.39a86228.jpg"
   },
   {
-    "revision": "7756de0d8f365bea589675d94ec51a73",
-    "url": "/saketVerma/static/media/Corona.7756de0d.png"
+    "revision": "9e080d3851f8870d345bdd442b696575",
+    "url": "/saketVerma/static/media/Corona.9e080d38.png"
   },
   {
-    "revision": "99bf09feef5492f36b456b86825e3209",
-    "url": "/saketVerma/static/media/Covered2.99bf09fe.png"
+    "revision": "21c4c53545cfbaa0e2a34ed252ba19fc",
+    "url": "/saketVerma/static/media/Covered2.21c4c535.png"
   },
   {
     "revision": "e860dfa18986a71ae6f52e0dd3243f28",
@@ -72,16 +72,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/saketVerma/static/media/Leaves.513ccc34.jpg"
   },
   {
-    "revision": "d3a2da57227638e530150e25477f7e59",
-    "url": "/saketVerma/static/media/Quick.d3a2da57.png"
+    "revision": "a9a91577126090a8575ae3d431128220",
+    "url": "/saketVerma/static/media/Quick.a9a91577.png"
   },
   {
-    "revision": "03320140340c55cfac9bcdf2b0bd1e87",
-    "url": "/saketVerma/static/media/Quickv2.03320140.png"
+    "revision": "93eae7d584b51a9723701833e7d3abe6",
+    "url": "/saketVerma/static/media/Quickv2.93eae7d5.png"
   },
   {
-    "revision": "ce96a8c389c64ff15ef2eb8de4ab4280",
-    "url": "/saketVerma/static/media/SaketVerma.ce96a8c3.jpg"
+    "revision": "2bc4d65f2677442addaf93656665c1d3",
+    "url": "/saketVerma/static/media/SaketVerma.2bc4d65f.jpg"
   },
   {
     "revision": "f5a1ffe9f5ac3e8ba699914a5a19327d",
