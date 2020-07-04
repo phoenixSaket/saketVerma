@@ -2,7 +2,7 @@ import React from 'react';
 
 function Content(props) {
   const data = props;
-  console.log(data.title);
+  // console.log(data.title);
   return (
     <div className="aboutMe semi-white-bg" style={{ boxShadow: '0px 0px 5px rgba(0,0,0,0.1)' }}>
       <div className="inner-content">
