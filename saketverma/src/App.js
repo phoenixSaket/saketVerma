@@ -15,39 +15,41 @@ function App() {
       <Container className="containerMain" size="md">
         <div className="navbar-container">
           <Navbar fixed="top" expand="sm">
-            <div className="navbar-inner-container">
-              <Navbar.Brand>
-                <span
-                // className="notOnMobile"
-                >
-                  Saket Verma
+            <div className="topNoMobile" style={{ justifyContent: 'center', maxWidth: '855px', width: '100%' }}>
+              <div className="navbar-inner-container">
+                <Navbar.Brand>
+                  <span
+                  // className="notOnMobile"
+                  >
+                    Saket Verma
               </span>
-              </Navbar.Brand>
-              {/* <div className="sidebar-top mobile-only">
+                </Navbar.Brand>
+                {/* <div className="sidebar-top mobile-only">
               <img
                 className="avatar-mini shadows"
                 src={require("./Images/SaketVerma.jpg")}
                 alt="my Avatar"
               /> */}
-              <div className="toggler-custom">
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                {/* </div> */}
-                <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
-                  <Nav className="justify-content-end ">
-                    <Nav.Link href="#content" className="nav-links">
-                      About Me
-                </Nav.Link>
-                    <Nav.Link href="#education" className="nav-links">
-                      Education
-                </Nav.Link>
-                    <Nav.Link href="#experience" className="nav-links">
-                      Experience
-                </Nav.Link>
-                    <Nav.Link href="#other" className="nav-links">
-                      Other
-                </Nav.Link>
-                  </Nav>
-                </Navbar.Collapse>
+                <div className="toggler-custom">
+                  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                  {/* </div> */}
+                  <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
+                    <Nav className="justify-content-end ">
+                      <Nav.Link href="#content" className="nav-links">
+                        About Me
+                      </Nav.Link>
+                      <Nav.Link href="#education" className="nav-links">
+                        Education
+                      </Nav.Link>
+                      <Nav.Link href="#experience" className="nav-links">
+                        Experience
+                      </Nav.Link>
+                      <Nav.Link href="#other" className="nav-links">
+                        Other
+                      </Nav.Link>
+                    </Nav>
+                  </Navbar.Collapse>
+                </div>
               </div>
             </div>
           </Navbar>
@@ -115,6 +117,20 @@ function App() {
                       </span>
                     </a>
                   </div>
+                  <div className="personalContact">
+                    <div className="personalPhone">
+                      <i className="fa fa-whatsapp" style={{ fontSize: '20px', marginRight: '10px' }}></i>
+                      +91-8668692038
+                    </div>
+                    <div className="personalMail">
+                      <i className="fa fa-envelope" style={{ fontSize: '20px', marginRight: '10px' }}></i>
+                      develope.saket@gmail.com
+                    </div>
+                    <div className="personalMail">
+                      <i className="fa fa-envelope" style={{ fontSize: '20px', marginRight: '10px' }}></i>
+                      saket.verma@scrollright.com
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -145,16 +161,25 @@ function App() {
               <Other />
             </div>
           </div>
-          <div className="sidebar-container tabletPlus ">
+          {/* <div className="sidebar-container tabletPlus ">
             <div className="sidebar">
-              <img
-                className="avatar-mini shadows"
-                src={require("./Images/SaketVerma.jpg")}
-                alt="my Avatar"
-              />
+              <div className="sidebar-inner">
+                <img
+                  className="avatar-mini shadows"
+                  src={require("./Images/SaketVerma.jpg")}
+                  alt="my Avatar"
+                />
+
+                <div className="sidebarElement">
+                  <i className="fa fa-info-circle"
+                  style={{fontSize: '30px' , marginTop: '5px' }}
+                  href="#content"
+                  ></i>
+                </div>
+              </div>
             </div>
             <div className="sidebar-bottom-triangle" />
-          </div>
+          </div> */}
         </div>
       </Container>
     </div>
