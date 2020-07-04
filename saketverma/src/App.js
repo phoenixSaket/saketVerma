@@ -14,6 +14,16 @@ function App() {
   const avatar = require("./Images/myAvatar.png");
   return (
     <div className="homepage">
+      <Helmet>
+        <title>Saket Verma</title>
+        <meta name="description" content="Saket's Homepage / Digital Resume" />
+        <meta name="og:title" content="Saket Verma" />
+        <meta name="og:description" content="Saket's Homepage / Digital Resume" />
+        <meta name="og:image" content={avatar} />
+        <meta name="twitter:title" content="Saket Verma" />
+        <meta name="twitter:description" content="Saket's Homepage / Digital Resume" />
+        <meta name="twitter:image" content={avatar} />
+      </Helmet>
       <Container className="containerMain" size="md">
         <div className="navbar-container">
           <Navbar expand="sm">
@@ -174,16 +184,6 @@ function App() {
           </div> */}
         </div>
       </Container>
-      <Helmet>
-        <title>Saket Verma</title>
-        <meta name="description" content="Saket's Homepage / Digital Resume"/>
-        <meta name="og:title" content="Saket Verma"/>
-        <meta name="og:description" content="Saket's Homepage / Digital Resume"/>
-        <meta name="og:image" content={avatar} />
-        <meta name="twitter:title" content="Saket Verma"/>
-        <meta name="twitter:description" content="Saket's Homepage / Digital Resume"/>
-        <meta name="twitter:image" content={avatar} />
-      </Helmet>
     </div>
   );
 }
