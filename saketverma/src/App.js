@@ -6,10 +6,12 @@ import Content from "./Components/Content";
 import Education from "./Components/Education";
 import Experience from "./Components/Experience";
 import Other from "./Components/Other";
+import { Helmet } from "react-helmet";
 // import ContactMe from "./Components/ContactMe";
 
 function App() {
   // const height = screen.height;
+  const avatar = require("./Images/myAvatar.png");
   return (
     <div className="homepage">
       <Container className="containerMain" size="md">
@@ -172,6 +174,16 @@ function App() {
           </div> */}
         </div>
       </Container>
+      <Helmet>
+        <title>Saket Verma</title>
+        <meta name="description" content="Saket's Homepage / Digital Resume"/>
+        <meta name="og:title" content="Saket Verma"/>
+        <meta name="og:description" content="Saket's Homepage / Digital Resume"/>
+        <meta name="og:image" content={avatar} />
+        <meta name="twitter:title" content="Saket Verma"/>
+        <meta name="twitter:description" content="Saket's Homepage / Digital Resume"/>
+        <meta name="twitter:image" content={avatar} />
+      </Helmet>
     </div>
   );
 }
