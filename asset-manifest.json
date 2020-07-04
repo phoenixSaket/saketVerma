@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/saketVerma/static/css/main.c99a8226.chunk.css",
-    "main.js": "/saketVerma/static/js/main.6cfb57eb.chunk.js",
-    "main.js.map": "/saketVerma/static/js/main.6cfb57eb.chunk.js.map",
+    "main.js": "/saketVerma/static/js/main.be01872d.chunk.js",
+    "main.js.map": "/saketVerma/static/js/main.be01872d.chunk.js.map",
     "runtime-main.js": "/saketVerma/static/js/runtime-main.7747ab14.js",
     "runtime-main.js.map": "/saketVerma/static/js/runtime-main.7747ab14.js.map",
     "static/css/2.af3c1da9.chunk.css": "/saketVerma/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.f5e86549.chunk.js": "/saketVerma/static/js/2.f5e86549.chunk.js",
-    "static/js/2.f5e86549.chunk.js.map": "/saketVerma/static/js/2.f5e86549.chunk.js.map",
+    "static/js/2.7024b123.chunk.js": "/saketVerma/static/js/2.7024b123.chunk.js",
+    "static/js/2.7024b123.chunk.js.map": "/saketVerma/static/js/2.7024b123.chunk.js.map",
     "index.html": "/saketVerma/index.html",
-    "precache-manifest.fc65e637599a48878fa7931b8825cfc3.js": "/saketVerma/precache-manifest.fc65e637599a48878fa7931b8825cfc3.js",
+    "precache-manifest.d6f1afae88ba7ed2e06ebbeb329e12fb.js": "/saketVerma/precache-manifest.d6f1afae88ba7ed2e06ebbeb329e12fb.js",
     "service-worker.js": "/saketVerma/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/saketVerma/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.c99a8226.chunk.css.map": "/saketVerma/static/css/main.c99a8226.chunk.css.map",
-    "static/js/2.f5e86549.chunk.js.LICENSE.txt": "/saketVerma/static/js/2.f5e86549.chunk.js.LICENSE.txt",
+    "static/js/2.7024b123.chunk.js.LICENSE.txt": "/saketVerma/static/js/2.7024b123.chunk.js.LICENSE.txt",
     "static/media/App.css": "/saketVerma/static/media/BG_new.b8d49645.png",
     "static/media/Bulb.png": "/saketVerma/static/media/Bulb.6e267c0b.png",
     "static/media/Clouds.jpg": "/saketVerma/static/media/Clouds.6da45d42.jpg",
@@ -28,13 +28,14 @@
     "static/media/Quick.png": "/saketVerma/static/media/Quick.64506115.png",
     "static/media/Quickv2.png": "/saketVerma/static/media/Quickv2.d6aba790.png",
     "static/media/SaketVerma.jpg": "/saketVerma/static/media/SaketVerma.2bc4d65f.jpg",
+    "static/media/myAvatar.png": "/saketVerma/static/media/myAvatar.b41d31e6.png",
     "static/media/sr_mukul.png": "/saketVerma/static/media/sr_mukul.8e3e472f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7747ab14.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.f5e86549.chunk.js",
+    "static/js/2.7024b123.chunk.js",
     "static/css/main.c99a8226.chunk.css",
-    "static/js/main.6cfb57eb.chunk.js"
+    "static/js/main.be01872d.chunk.js"
   ]
 }

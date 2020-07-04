@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3e9ebd4ef1726a070ee1d602641331c6",
+    "revision": "eae1323b49bb272d2f3606d7becba550",
     "url": "/saketVerma/index.html"
   },
   {
-    "revision": "ee18046360e893353355",
+    "revision": "9e5dc3854a462c62e158",
     "url": "/saketVerma/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "f39b1dc164f7b3cd5603",
+    "revision": "2c5fea7b111da434850f",
     "url": "/saketVerma/static/css/main.c99a8226.chunk.css"
   },
   {
-    "revision": "ee18046360e893353355",
-    "url": "/saketVerma/static/js/2.f5e86549.chunk.js"
+    "revision": "9e5dc3854a462c62e158",
+    "url": "/saketVerma/static/js/2.7024b123.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/saketVerma/static/js/2.f5e86549.chunk.js.LICENSE.txt"
+    "url": "/saketVerma/static/js/2.7024b123.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f39b1dc164f7b3cd5603",
-    "url": "/saketVerma/static/js/main.6cfb57eb.chunk.js"
+    "revision": "2c5fea7b111da434850f",
+    "url": "/saketVerma/static/js/main.be01872d.chunk.js"
   },
   {
     "revision": "b9e9fa6507d6e989d917",
@@ -82,6 +82,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2bc4d65f2677442addaf93656665c1d3",
     "url": "/saketVerma/static/media/SaketVerma.2bc4d65f.jpg"
+  },
+  {
+    "revision": "b41d31e6e5e8612fe8a59a7e05ab89a4",
+    "url": "/saketVerma/static/media/myAvatar.b41d31e6.png"
   },
   {
     "revision": "8e3e472fcd2f01ba9e364f8a798cad42",
