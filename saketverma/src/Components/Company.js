@@ -2,7 +2,7 @@ import React from 'react';
 
 function Company(props) {
   const data = props;
-  console.log("Data is ",data);
+  // console.log("Data is ",data);
   // const image = require(data.imageLink);
   return (
     <div className="internshipContainer">
