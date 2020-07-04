@@ -16,13 +16,13 @@ function App() {
       <Helmet>
         <title>Saket Verma</title>
         <meta name="description" content="Saket's Homepage / Digital Resume" />
-        <meta name="image" content={require("./Images/myAvatar.png")} />
+        <meta name="image" content="https://raw.githubusercontent.com/phoenixSaket/saketVerma/master/saketverma/src/Images/SaketVerma.jpg" />
         <meta name="og:title" content="Saket Verma" />
         <meta name="og:description" content="Saket's Homepage / Digital Resume" />
-        <meta name="og:image" content={require("./Images/myAvatar.png")} />
+        <meta name="og:image" content="https://raw.githubusercontent.com/phoenixSaket/saketVerma/master/saketverma/src/Images/SaketVerma.jpg" />
         <meta name="twitter:title" content="Saket Verma" />
         <meta name="twitter:description" content="Saket's Homepage / Digital Resume" />
-        <meta name="twitter:image" content={require("./Images/myAvatar.png")} />
+        <meta name="twitter:image" content="https://raw.githubusercontent.com/phoenixSaket/saketVerma/master/saketverma/src/Images/SaketVerma.jpg" />
       </Helmet>
       <Container className="containerMain" size="md">
         <div className="navbar-container">
