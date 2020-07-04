@@ -252,6 +252,11 @@ button.navbar-toggler {
 :focus {
   outline: none !important;
 }
+
+.personalContact {
+  text-align: left !important;
+}
+
 @media only screen and (min-width: 300px) {
   
   /* FOR MOBILE DEVICES */
@@ -262,9 +267,9 @@ button.navbar-toggler {
   .mobile-only {
     display: block !important;
   }
-  /* .mobile-center {
+  .mobile-center {
     text-align: center !important;
-  } */
+  }
   .h1,
   h1 {
     font-size: 32px !important;
