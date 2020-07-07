@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 .homepage {
   background-image: url("./Images/BG_new.png");
   background-position: center; /* Center the image */
