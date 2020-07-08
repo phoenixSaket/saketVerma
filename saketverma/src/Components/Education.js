@@ -58,7 +58,7 @@ function Education() {
 
         <Row style={{ width: '100%' }}>
           <Col xs="6" className="leftSide">
-            <span className="educationTitle">High School Certificate (HSC)</span><br />
+            <span className="educationTitle">Higher Secondary Certificate (HSC)</span><br />
             <span className="institute">
               Ushabai Deshmukh Jr. College<br />
               <span className="city">
