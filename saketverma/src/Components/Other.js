@@ -14,7 +14,7 @@ function Other() {
   const [show, setShow] = useState(false);
   const [key, setKey] = useState('KLWP');
   const [currentImage, setCurrentImage] = useState(0);
-  const openIndexSetter = useCallback((event, { photo, index }) => {
+  const openIndexSetter = useCallback((event, { index }) => {
     setShow(true);
     setCurrentImage(index);
   }, []);
