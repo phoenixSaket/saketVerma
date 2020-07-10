@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useCallback } from 'react';
 import "./Experience.css";
-import { Carousel, Button, Tab, Tabs } from 'react-bootstrap';
+import { Carousel, Button, Tab, Tabs, Modal } from 'react-bootstrap';
 import Gallery from 'react-photo-gallery';
 
 function openNewTab(link) {
@@ -8,7 +8,16 @@ function openNewTab(link) {
 }
 
 function Other() {
+  const screenWidth = window.innerWidth;
+  const screenHeight = window.innerHeight;
+  console.log(screenHeight, screenWidth)
+  const [show, setShow] = useState(false);
   const [key, setKey] = useState('KLWP');
+  const [currentImage, setCurrentImage] = useState(0);
+  const openIndexSetter = useCallback((event, { photo, index }) => {
+    setShow(true);
+    setCurrentImage(index);
+  }, []);
   const photos = [
     {
       src: require('../Images/Photos/Cube.png'),
@@ -60,6 +69,17 @@ function Other() {
       width: 4,
       height: 5
     },
+  ];
+
+  const photosFull = [
+    require('../Images/Full-Photos/Cube.png'),
+    require('../Images/Full-Photos/Globe.png'),
+    require('../Images/Full-Photos/Bulb.png'),
+    require('../Images/Full-Photos/Flower.jpg'),
+    require('../Images/Full-Photos/Clouds.jpg'),
+    require('../Images/Full-Photos/Keyboard.jpg'),
+    require('../Images/Full-Photos/Leaves.jpg'),
+    require('../Images/Full-Photos/Goa.png')
   ];
 
   return (
@@ -138,10 +158,49 @@ function Other() {
               Photography
             </div> */}
           <div style={{ marginTop: '20px' }}>
-            <Gallery photos={photos} />
+            <Gallery photos={photos} onClick={openIndexSetter} />
           </div>
         </Tab>
       </Tabs>
+      <Modal
+        show={show}
+        centered
+        onHide={() => setShow(false)}
+        dialogClassName="modal-90w"
+        size="xl"
+        aria-labelledby="example-custom-modal-styling-title"
+      >
+        <i className="fa fa-chevron-circle-left"
+          onClick={
+            () => {
+              if (currentImage === 0) {
+                setCurrentImage(7)
+              } else {
+                setCurrentImage(currentImage - 1)
+              }
+            }
+          }
+        />
+        <img src={photosFull[currentImage]} alt="clicked"
+          style={{
+            maxWidth: `${screenWidth}px`,
+            maxHeight: `${screenHeight}px`,
+            // width: 'fit-content',
+            // height: 'fit-content'
+          }}
+        />
+        <i className="fa fa-chevron-circle-right"
+          onClick={
+            () => {
+              if (currentImage === 7) {
+                setCurrentImage(0)
+              } else {
+                setCurrentImage(currentImage + 1)
+              }
+            }
+          }
+        />
+      </Modal>
     </div>
   );
 }
