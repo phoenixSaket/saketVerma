@@ -110,11 +110,46 @@ nav.nav.nav-tabs {
 }
 
 .fa-chevron-circle-left,
-.fa-chevron-circle-right {
+.fa-chevron-circle-right,
+.fa-times-circle {
   color: white;
   font-size: 30px;
-  padding: 2rem;
+  margin: 1rem;
+  padding: 2px 3px 2px 3px;
+  z-index: 2050;
+  position: fixed;
+  background-color: black;
+  border-radius: 50%;
+  opacity: 0.3;
 }
+
+.fa-chevron-circle-left:hover,
+.fa-chevron-circle-right:hover,
+.fa-times-circle:hover {
+  opacity: 1;
+}
+
+.fa-times-circle {
+  right: 0;
+  top: 0;
+}
+
+.fa-chevron-circle-left {
+  left: 0;
+}
+
+.fa-chevron-circle-right {
+  right: 0;
+}
+
+.modal-backdrop.show {
+  opacity: 0.9 !important;
+}
+
+.nav-link.active {
+  color: #aaaaaa !important;
+}
+
 @media only screen and (min-width: 300px) {
   /* Mobile Devices */
 

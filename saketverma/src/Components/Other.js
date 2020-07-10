@@ -189,6 +189,13 @@ function Other() {
             // height: 'fit-content'
           }}
         />
+        <i className="fa fa-times-circle"
+          onClick={
+            () => {
+              setShow(false)
+            }
+          }
+        />
         <i className="fa fa-chevron-circle-right"
           onClick={
             () => {
