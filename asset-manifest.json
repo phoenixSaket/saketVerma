@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/saketVerma/static/css/main.5b25ef70.chunk.css",
-    "main.js": "/saketVerma/static/js/main.60daddf7.chunk.js",
-    "main.js.map": "/saketVerma/static/js/main.60daddf7.chunk.js.map",
+    "main.css": "/saketVerma/static/css/main.689c1f1f.chunk.css",
+    "main.js": "/saketVerma/static/js/main.ba6308d1.chunk.js",
+    "main.js.map": "/saketVerma/static/js/main.ba6308d1.chunk.js.map",
     "runtime-main.js": "/saketVerma/static/js/runtime-main.7747ab14.js",
     "runtime-main.js.map": "/saketVerma/static/js/runtime-main.7747ab14.js.map",
     "static/css/2.af3c1da9.chunk.css": "/saketVerma/static/css/2.af3c1da9.chunk.css",
     "static/js/2.a13ce32a.chunk.js": "/saketVerma/static/js/2.a13ce32a.chunk.js",
     "static/js/2.a13ce32a.chunk.js.map": "/saketVerma/static/js/2.a13ce32a.chunk.js.map",
     "index.html": "/saketVerma/index.html",
-    "precache-manifest.1ce08988f7cfbeb2214d6951dda57c8c.js": "/saketVerma/precache-manifest.1ce08988f7cfbeb2214d6951dda57c8c.js",
+    "precache-manifest.1219149bef065c630aba7b95372415b7.js": "/saketVerma/precache-manifest.1219149bef065c630aba7b95372415b7.js",
     "service-worker.js": "/saketVerma/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/saketVerma/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.5b25ef70.chunk.css.map": "/saketVerma/static/css/main.5b25ef70.chunk.css.map",
+    "static/css/main.689c1f1f.chunk.css.map": "/saketVerma/static/css/main.689c1f1f.chunk.css.map",
     "static/js/2.a13ce32a.chunk.js.LICENSE.txt": "/saketVerma/static/js/2.a13ce32a.chunk.js.LICENSE.txt",
     "static/media/App.css": "/saketVerma/static/media/BG_new.b8d49645.png",
     "static/media/Bulb.png": "/saketVerma/static/media/Bulb.6e267c0b.png",
@@ -34,7 +34,7 @@
     "static/js/runtime-main.7747ab14.js",
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.a13ce32a.chunk.js",
-    "static/css/main.5b25ef70.chunk.css",
-    "static/js/main.60daddf7.chunk.js"
+    "static/css/main.689c1f1f.chunk.css",
+    "static/js/main.ba6308d1.chunk.js"
   ]
 }
