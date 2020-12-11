@@ -79,10 +79,13 @@ function Other() {
   const photosFull = [
     require('../Images/Full-Photos/Cube.png'),
     require('../Images/Full-Photos/Globe.png'),
-    require('../Images/Full-Photos/Bulb.png'),
+    require('../Images/Full-Photos/Mouse.jpg'),
     require('../Images/Full-Photos/Flower.jpg'),
+    require('../Images/Full-Photos/Bulb.png'),
     require('../Images/Full-Photos/Clouds.jpg'),
+    require('../Images/Full-Photos/Tree.jpg'),
     require('../Images/Full-Photos/Keyboard.jpg'),
+    require('../Images/Full-Photos/Keyboard2.jpg'),
     require('../Images/Full-Photos/Leaves.jpg'),
     require('../Images/Full-Photos/Goa.png')
   ];
