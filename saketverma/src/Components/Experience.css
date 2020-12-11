@@ -150,6 +150,12 @@ nav.nav.nav-tabs {
   color: #aaaaaa !important;
 }
 
+
+.modal-backdrop.show {
+  opacity: 0.97 !important;
+}
+
+
 @media only screen and (min-width: 300px) {
   /* Mobile Devices */
 
