@@ -33,7 +33,7 @@ function ExperienceAndWork() {
         <Company
           companyName="ScrollRight"
           imageLink={require("../Images/sr_mukul.png")}
-          type="Full Time"
+          type="Freelance"
           workPeriod="Since June, 2020"
           workingAs={[
             "Software Developer"
@@ -44,6 +44,19 @@ function ExperienceAndWork() {
           aboutCompany="ScrollRight is a online freelance service provider and product building company where you can ask to create
           your own app, website, software. Also, we provided freelance support to any firm, company who needs it. Think Big.
           Think Innovative. Think ScrollRight!"
+        />
+        <Company
+          companyName="CitiusTech"
+          imageLink={require("../Images/sr_mukul.png")}
+          type="Full Time"
+          workPeriod="Since October, 2020"
+          workingAs={[
+            "Software Developer"
+          ]}
+          workLink={[
+            "www.citiutech.com"
+          ]}
+          aboutCompany="CitiusTech is a healthcare IT company providing specialized healthcare technology & business services, consulting, and medical IT solutions."
         />
       </div>
     </div>
