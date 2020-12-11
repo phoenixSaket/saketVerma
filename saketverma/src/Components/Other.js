@@ -30,9 +30,9 @@ function Other() {
       height: 2
     },
     {
-      src: require('../Images/Photos/Bulb.png'),
-      width: 2.5,
-      height: 2
+      src: require('../Images/Photos/Mouse.jpg'),
+      width: 4,
+      height: 5
     },
     {
       src: require('../Images/Photos/Flower.jpg'),
@@ -40,9 +40,9 @@ function Other() {
       height: 2.5
     },
     {
-      src: require('../Images/Photos/Tree.png'),
-      width: 2,
-      height: 2.5
+      src: require('../Images/Photos/Bulb.png'),
+      width: 2.5,
+      height: 2
     },
     {
       src: require('../Images/Photos/Clouds.jpg'),
@@ -50,15 +50,20 @@ function Other() {
       height: 2
     },
     {
+      src: require('../Images/Photos/Tree.jpg'),
+      width: 4,
+      height: 5
+    },
+    {
       src: require('../Images/Photos/Keyboard.jpg'),
       width: 2.5,
       height: 2
     },
-    // {
-    //   src: require('../Images/Photos/Sky.png'),
-    //   width: 2,
-    //   height: 2.5
-    // },
+    {
+      src: require('../Images/Photos/Keyboard2.jpg'),
+      width: 2,
+      height: 2.5
+    },
     {
       src: require('../Images/Photos/Leaves.jpg'),
       width: 10,
