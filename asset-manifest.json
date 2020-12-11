@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/saketVerma/static/css/main.689c1f1f.chunk.css",
-    "main.js": "/saketVerma/static/js/main.ea42b611.chunk.js",
-    "main.js.map": "/saketVerma/static/js/main.ea42b611.chunk.js.map",
+    "main.js": "/saketVerma/static/js/main.34a0c4d4.chunk.js",
+    "main.js.map": "/saketVerma/static/js/main.34a0c4d4.chunk.js.map",
     "runtime-main.js": "/saketVerma/static/js/runtime-main.7747ab14.js",
     "runtime-main.js.map": "/saketVerma/static/js/runtime-main.7747ab14.js.map",
     "static/css/2.af3c1da9.chunk.css": "/saketVerma/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.a13ce32a.chunk.js": "/saketVerma/static/js/2.a13ce32a.chunk.js",
-    "static/js/2.a13ce32a.chunk.js.map": "/saketVerma/static/js/2.a13ce32a.chunk.js.map",
+    "static/js/2.a7dfc851.chunk.js": "/saketVerma/static/js/2.a7dfc851.chunk.js",
+    "static/js/2.a7dfc851.chunk.js.map": "/saketVerma/static/js/2.a7dfc851.chunk.js.map",
     "index.html": "/saketVerma/index.html",
-    "precache-manifest.df5eb01cfec1a7a33960d3053911eff1.js": "/saketVerma/precache-manifest.df5eb01cfec1a7a33960d3053911eff1.js",
+    "precache-manifest.71ef5044ca3b23b5f473146bf3642c16.js": "/saketVerma/precache-manifest.71ef5044ca3b23b5f473146bf3642c16.js",
     "service-worker.js": "/saketVerma/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/saketVerma/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.689c1f1f.chunk.css.map": "/saketVerma/static/css/main.689c1f1f.chunk.css.map",
-    "static/js/2.a13ce32a.chunk.js.LICENSE.txt": "/saketVerma/static/js/2.a13ce32a.chunk.js.LICENSE.txt",
+    "static/js/2.a7dfc851.chunk.js.LICENSE.txt": "/saketVerma/static/js/2.a7dfc851.chunk.js.LICENSE.txt",
     "static/media/App.css": "/saketVerma/static/media/BG_new.b8d49645.png",
     "static/media/Bulb.png": "/saketVerma/static/media/Bulb.6e267c0b.png",
     "static/media/Clouds.jpg": "/saketVerma/static/media/Clouds.6da45d42.jpg",
@@ -24,17 +24,20 @@
     "static/media/Globe.png": "/saketVerma/static/media/Globe.e240b259.png",
     "static/media/Goa.png": "/saketVerma/static/media/Goa.93f2d81a.png",
     "static/media/Keyboard.jpg": "/saketVerma/static/media/Keyboard.f08b9548.jpg",
+    "static/media/Keyboard2.jpg": "/saketVerma/static/media/Keyboard2.344e094b.jpg",
     "static/media/Leaves.jpg": "/saketVerma/static/media/Leaves.6c646740.jpg",
+    "static/media/Mouse.jpg": "/saketVerma/static/media/Mouse.4362efb7.jpg",
     "static/media/Quick.png": "/saketVerma/static/media/Quick.64506115.png",
     "static/media/Quickv2.png": "/saketVerma/static/media/Quickv2.d6aba790.png",
-    "static/media/SaketVerma.jpg": "/saketVerma/static/media/SaketVerma.2bc4d65f.jpg",
+    "static/media/SaketVerma_Colored2.jpg": "/saketVerma/static/media/SaketVerma_Colored2.98e6310f.jpg",
+    "static/media/Tree.jpg": "/saketVerma/static/media/Tree.5527249a.jpg",
     "static/media/sr_mukul.png": "/saketVerma/static/media/sr_mukul.8e3e472f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7747ab14.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.a13ce32a.chunk.js",
+    "static/js/2.a7dfc851.chunk.js",
     "static/css/main.689c1f1f.chunk.css",
-    "static/js/main.ea42b611.chunk.js"
+    "static/js/main.34a0c4d4.chunk.js"
   ]
 }
