@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "936bdad17d0e69e43c21d5b925a1efef",
+    "revision": "282703c15bbe3c45d81c44934792b2a5",
     "url": "/saketVerma/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/saketVerma/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "8aa372a03c24a5219dca",
-    "url": "/saketVerma/static/css/main.689c1f1f.chunk.css"
+    "revision": "180373441cf929a56eee",
+    "url": "/saketVerma/static/css/main.bb133a68.chunk.css"
   },
   {
     "revision": "0b064f047f3990197582",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/saketVerma/static/js/2.318a57c9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8aa372a03c24a5219dca",
+    "revision": "180373441cf929a56eee",
     "url": "/saketVerma/static/js/main.9acc4b79.chunk.js"
   },
   {
