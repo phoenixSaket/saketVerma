@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "16f91e36b441dee17b9f08b29b0c238d",
+    "revision": "8f00bd039176d71909bc0cae2bb53082",
     "url": "/saketVerma/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/saketVerma/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "9d619a36efbabda7a775",
+    "revision": "2392cd1c85b452c9fd1b",
     "url": "/saketVerma/static/css/main.bb133a68.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/saketVerma/static/js/2.318a57c9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9d619a36efbabda7a775",
-    "url": "/saketVerma/static/js/main.2b02d448.chunk.js"
+    "revision": "2392cd1c85b452c9fd1b",
+    "url": "/saketVerma/static/js/main.88a97294.chunk.js"
   },
   {
     "revision": "b9e9fa6507d6e989d917",
@@ -124,8 +124,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/saketVerma/static/media/Tree.5527249a.jpg"
   },
   {
-    "revision": "fccb5c94d3a9a65b159e0d1d25eb0b86",
-    "url": "/saketVerma/static/media/photu.fccb5c94.jpg"
+    "revision": "ddf9a00aacb46602472c764982be4475",
+    "url": "/saketVerma/static/media/photu.ddf9a00a.jpg"
   },
   {
     "revision": "8e3e472fcd2f01ba9e364f8a798cad42",
