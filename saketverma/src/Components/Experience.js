@@ -47,7 +47,7 @@ function ExperienceAndWork() {
         />
         <Company
           companyName="CitiusTech"
-          imageLink={require("../Images/sr_mukul.png")}
+          imageLink={require("../Images/citiustech.png")}
           type="Full Time"
           workPeriod="Since October, 2020"
           workingAs={[
