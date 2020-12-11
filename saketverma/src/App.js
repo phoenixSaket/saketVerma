@@ -62,7 +62,7 @@ function App() {
               <div className="personal-inner">
                 <img
                   className="avatar shadows"
-                  src={require("./Images/SaketVerma.jpg")}
+                  src={require("./Images/SaketVerma_Colored2.jpg")}
                   alt="my Avatar"
                 />
                 <div className="personal-info mobile-center">
@@ -131,6 +131,10 @@ function App() {
                     <div className="personalMail">
                       <i className="fa fa-envelope" style={{ fontSize: '15px', marginRight: '10px' }}></i>
                       saket.verma@scrollright.com
+                    </div>
+                    <div className="personalMail">
+                      <i className="fa fa-envelope" style={{ fontSize: '15px', marginRight: '10px' }}></i>
+                      saket.verma@citiustech.com
                     </div>
                   </div>
                 </div>
