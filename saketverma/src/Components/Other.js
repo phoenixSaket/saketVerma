@@ -39,11 +39,11 @@ function Other() {
       width: 2,
       height: 2.5
     },
-    // {
-    //   src: require('../Images/Photos/Tree.png'),
-    //   width: 2,
-    //   height: 2.5
-    // },
+    {
+      src: require('../Images/Photos/Tree.png'),
+      width: 2,
+      height: 2.5
+    },
     {
       src: require('../Images/Photos/Clouds.jpg'),
       width: 2.5,
