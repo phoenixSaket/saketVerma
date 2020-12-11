@@ -62,7 +62,7 @@ function App() {
               <div className="personal-inner">
                 <img
                   className="avatar shadows"
-                  src={require("./Images/SaketVerma_Colored2.jpg")}
+                  src={require("./Images/photu.jpg")}
                   alt="my Avatar"
                 />
                 <div className="personal-info mobile-center">
