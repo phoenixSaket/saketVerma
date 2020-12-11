@@ -182,7 +182,7 @@ function Other() {
           onClick={
             () => {
               if (currentImage === 0) {
-                setCurrentImage(7)
+                setCurrentImage(photosFull.length - 1)
               } else {
                 setCurrentImage(currentImage - 1)
               }
