@@ -71,3 +71,13 @@
 .paddingLeft {
     padding-left: 15px;
 }
+
+.instaDetails {
+    background-color: #ffffff;
+}
+
+.profile {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 // import './InstaBlock.css';
 
 function InstaBlocks(props) {
@@ -7,13 +7,14 @@ function InstaBlocks(props) {
     const imageURL = props.props.imageURL;
 
     return (
-        <div className="InstaBlockMain backgroundColor"
+        <div className="InstaBlockMain"
             style={{
-                width: props.props.width, height: 'auto', alignSelf: 'center', margin: '10px', borderRadius: '15px'
+                width: props.props.width, height: 'auto', alignSelf: 'center', margin: '1%',
+                borderRadius: '15px', boxShadow: '0px 0px 5px 1px #00000045'    
             }}>
 
             <div className="top">
-                <img src={require("../Images/myAvatar.png")} alt="avatar" className="instaAvatar" />
+                <img src={props.props.avatar} alt="avatar" className="instaAvatar" />
                 <span className="white paddingLeft">{props.props.username}</span>
             </div>
             <div className="image">
