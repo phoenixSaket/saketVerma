@@ -5,6 +5,7 @@ import './InstaBlock.css';
 function Insta() {
 
     const [posts, setPosts] = useState([]);
+
     const [width, setWidth] = useState('45%');
 
     useEffect(() => {
@@ -12,6 +13,7 @@ function Insta() {
             .then(response => response.json())
             .then((jsonData) => {
                 // jsonData is parsed json object received from url
+                console.log("DATA ",jsonData);
                 setPosts(jsonData.graphql.user.edge_owner_to_timeline_media.edges);
             })
             .catch((error) => {
@@ -40,7 +42,7 @@ function Insta() {
     return (
         <div>
             <div className="settings darkBG">
-                <i class="fa fa-th notOnMobile" aria-hidden="true" onClick={() => { setWidth('30%') }}></i>
+                <i class="fa fa-th notOnMobile" aria-hidden="true" onClick={() => { setWidth('25%') }}></i>
                 <i class="fa fa-th-large" aria-hidden="true" onClick={() => { setWidth('45%') }}></i>
                 <i class="fa fa-square" aria-hidden="true" onClick={() => { setWidth('90%') }}></i>
             </div>
@@ -53,8 +55,6 @@ function Insta() {
                     backgroundColor: '#f1f1f1'
                 }}
             >
-
-
                 {tryRender}
             </div>
         </div>
