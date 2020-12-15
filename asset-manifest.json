@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/saketVerma/static/css/main.bb133a68.chunk.css",
-    "main.js": "/saketVerma/static/js/main.88a97294.chunk.js",
-    "main.js.map": "/saketVerma/static/js/main.88a97294.chunk.js.map",
+    "main.css": "/saketVerma/static/css/main.03015f36.chunk.css",
+    "main.js": "/saketVerma/static/js/main.518d3d8e.chunk.js",
+    "main.js.map": "/saketVerma/static/js/main.518d3d8e.chunk.js.map",
     "runtime-main.js": "/saketVerma/static/js/runtime-main.7747ab14.js",
     "runtime-main.js.map": "/saketVerma/static/js/runtime-main.7747ab14.js.map",
     "static/css/2.af3c1da9.chunk.css": "/saketVerma/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.318a57c9.chunk.js": "/saketVerma/static/js/2.318a57c9.chunk.js",
-    "static/js/2.318a57c9.chunk.js.map": "/saketVerma/static/js/2.318a57c9.chunk.js.map",
+    "static/js/2.d66d13c2.chunk.js": "/saketVerma/static/js/2.d66d13c2.chunk.js",
+    "static/js/2.d66d13c2.chunk.js.map": "/saketVerma/static/js/2.d66d13c2.chunk.js.map",
     "index.html": "/saketVerma/index.html",
-    "precache-manifest.063b4c8d5e23953a1ff5bff3ef0f2f2f.js": "/saketVerma/precache-manifest.063b4c8d5e23953a1ff5bff3ef0f2f2f.js",
+    "precache-manifest.36530913d5a9f44b35e225a2dd4f69af.js": "/saketVerma/precache-manifest.36530913d5a9f44b35e225a2dd4f69af.js",
     "service-worker.js": "/saketVerma/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/saketVerma/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.bb133a68.chunk.css.map": "/saketVerma/static/css/main.bb133a68.chunk.css.map",
-    "static/js/2.318a57c9.chunk.js.LICENSE.txt": "/saketVerma/static/js/2.318a57c9.chunk.js.LICENSE.txt",
+    "static/css/main.03015f36.chunk.css.map": "/saketVerma/static/css/main.03015f36.chunk.css.map",
+    "static/js/2.d66d13c2.chunk.js.LICENSE.txt": "/saketVerma/static/js/2.d66d13c2.chunk.js.LICENSE.txt",
     "static/media/App.css": "/saketVerma/static/media/BG_new.b8d49645.png",
     "static/media/Bulb.png": "/saketVerma/static/media/Bulb.6e267c0b.png",
     "static/media/Clouds.jpg": "/saketVerma/static/media/Clouds.6da45d42.jpg",
@@ -30,14 +30,15 @@
     "static/media/Quick.png": "/saketVerma/static/media/Quick.64506115.png",
     "static/media/Quickv2.png": "/saketVerma/static/media/Quickv2.d6aba790.png",
     "static/media/Tree.jpg": "/saketVerma/static/media/Tree.5527249a.jpg",
+    "static/media/myAvatar.png": "/saketVerma/static/media/myAvatar.b41d31e6.png",
     "static/media/photu.jpg": "/saketVerma/static/media/photu.ddf9a00a.jpg",
     "static/media/sr_mukul.png": "/saketVerma/static/media/sr_mukul.8e3e472f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7747ab14.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.318a57c9.chunk.js",
-    "static/css/main.bb133a68.chunk.css",
-    "static/js/main.88a97294.chunk.js"
+    "static/js/2.d66d13c2.chunk.js",
+    "static/css/main.03015f36.chunk.css",
+    "static/js/main.518d3d8e.chunk.js"
   ]
 }
