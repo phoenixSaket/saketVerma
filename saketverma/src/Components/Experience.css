@@ -69,8 +69,8 @@
 }
 
 a#otherWork-tab-Photography,
-a#otherWork-tab-KLWP {
-  width: 50%;
+a#otherWork-tab-KLWP, a#otherWork-tab-Instagram {
+  width: 33.3%;
 }
 
 nav.nav.nav-tabs {

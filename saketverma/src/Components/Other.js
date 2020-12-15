@@ -2,6 +2,7 @@ import React, { useState, useCallback } from 'react';
 import "./Experience.css";
 import { Carousel, Button, Tab, Tabs, Modal } from 'react-bootstrap';
 import Gallery from 'react-photo-gallery';
+import Insta from './Insta';
 
 function openNewTab(link) {
   window.open(link);
@@ -12,7 +13,7 @@ function Other() {
   const screenHeight = window.innerHeight;
   // console.log(screenHeight, screenWidth)
   const [show, setShow] = useState(false);
-  const [key, setKey] = useState('KLWP');
+  const [key, setKey] = useState('Instagram');
   const [currentImage, setCurrentImage] = useState(0);
   const openIndexSetter = useCallback((event, { index }) => {
     setShow(true);
@@ -169,6 +170,10 @@ function Other() {
             <Gallery photos={photos} onClick={openIndexSetter} />
           </div>
         </Tab>
+        <Tab eventKey="Instagram" title="Instagram">
+          <Insta />
+        </Tab>
+        
       </Tabs>
       <Modal
         show={show}

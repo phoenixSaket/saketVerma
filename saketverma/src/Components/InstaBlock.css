@@ -1,0 +1,73 @@
+.backgroundColor {
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px #00000043;
+}
+
+.settings {
+    background-color: #f1f1f1;
+    height: 80px;
+    width: 100%;
+    display : flex;
+    justify-content: flex-end;
+    padding: 35px;
+}
+
+.fa-th , .fa-th-large , .fa-square {
+    padding : 0 10px;
+}
+
+.top {
+    height: 50px;
+    border-radius: 20px 20px 0 0;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.bottom {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.red {
+    color: red;
+}
+
+.white {
+    color: black;
+}
+
+.fa-heart {
+    color: red;
+    padding: 5px;
+}
+
+.fa-comment {
+    color: black;
+    padding: 5px;
+}
+
+.middleGap {
+    width: 50px;
+}
+
+.instaAvatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.paddingLeft {
+    padding-left: 15px;
+}
