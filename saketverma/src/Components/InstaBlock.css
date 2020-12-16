@@ -29,7 +29,7 @@
 .image{
     display: flex;
     justify-content: center;
-    
+    height: min-content;
 }
 
 .bottom {

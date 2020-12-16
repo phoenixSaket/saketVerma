@@ -18,7 +18,7 @@ function InstaBlocks(props) {
                 <span className="white paddingLeft">{props.props.username}</span>
             </div>
             <div className="image">
-                <img src={imageURL} alt="Instagram" style={{ width: '94%' }} />
+                <img src={imageURL} alt="Instagram" style={{ width: '94%', height: '94%' }} />
             </div>
             <div className="bottom">
                 <i className="fa fa-heart" aria-hidden="true"></i>
