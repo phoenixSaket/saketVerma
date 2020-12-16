@@ -1,7 +1,6 @@
 .instaDetails {
     display: flex;
     justify-content: flex-end;
-    padding-right: 20%;
     padding-top: 40px;
     background-image: url("../Images/InstaBG.png");
     background-size: cover;
@@ -80,6 +79,7 @@ br {
     /* FOR TABLET AND ABOVE */
     .instaDetails {
         background-image: url("../Images/InstaBG.png");
+        padding-right: 20%;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
