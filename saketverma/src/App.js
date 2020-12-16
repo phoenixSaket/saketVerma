@@ -27,8 +27,8 @@ function App() {
       <Container className="containerMain" size="md">
         <div className="navbar-container">
           <Navbar expand="sm">
-            <div style={{ justifyContent: 'center', maxWidth: '840px', width: '100%' }}>
-              <div className="navbar-inner-container">
+            <div style={{ justifyContent: 'center', width: '100%' }}>
+              <div className="navbar-inner-container backgroundImage">
                 <Navbar.Brand>
                   <span className="topNoMobile">Saket Verma</span>
                 </Navbar.Brand>

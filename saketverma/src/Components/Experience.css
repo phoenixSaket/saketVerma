@@ -73,9 +73,9 @@ a#otherWork-tab-KLWP, a#otherWork-tab-Instagram {
   width: 33.3%;
 }
 
-nav.nav.nav-tabs {
+/* nav.nav.nav-tabs {
   padding: 20px 20px 0 20px;
-}
+} */
 
 .nav-link {
   background-color: #f4f4f4;
@@ -147,7 +147,9 @@ nav.nav.nav-tabs {
 }
 
 .nav-link.active {
-  color: #aaaaaa !important;
+  background-color: #FFF5D5 !important;
+  color: black !important;
+  font-weight: bold;
 }
 
 
