@@ -35,7 +35,7 @@ function Insta() {
 
     posts.forEach(element => {
         console.log(element);
-        const dataToSend = {
+        let dataToSend = {
             imageURL: element.node.display_url,
             width: width,
             height: element.node.dimensions.height,
@@ -43,11 +43,39 @@ function Insta() {
             likes: element.node.edge_media_preview_like.count,
             comments: element.node.edge_media_to_comment.count,
             avatar: profile.profilePic,
-        }
-        tryRender.push(<InstaBlocks props={dataToSend} />);
-    });
 
-    console.log(profile);
+        }
+
+        if (!!element.node.edge_sidecar_to_children) {
+            dataToSend = {
+                ...dataToSend,
+                isMulti: true,
+                multiple: element.node.edge_sidecar_to_children.edges,
+            }
+        } else {
+            dataToSend = {
+                ...dataToSend,
+                isMulti: false,
+            }
+        }
+
+        if (!!element.node.edge_media_to_caption.edges && !!element.node.edge_media_to_caption.edges[0]) {    
+            console.log(element.node.edge_media_to_caption.edges);    
+            dataToSend = {
+                    ...dataToSend,
+                    caption: element.node.edge_media_to_caption.edges[0].node.text,
+                }
+            } else {
+                dataToSend = {
+                    ...dataToSend,
+                    caption: null,
+                }
+            }
+
+            tryRender.push(<InstaBlocks props={dataToSend} />);
+        });
+
+    // console.log(profile);
     return (
         <div>
             <div className="instaDetails">
@@ -61,18 +89,18 @@ function Insta() {
                     <div className="followDetails">
 
                         <div className="posts">
-                            <div className="textBreak"><b>Posts</b><br/>
-                            {profile.posts}
+                            <div className="textBreak"><b>Posts</b><br />
+                                {profile.posts}
                             </div>
                         </div>
                         <div className="followers">
-                            <div className="textBreak"><b>Following</b><br/>
-                            {profile.followers}
+                            <div className="textBreak"><b>Following</b><br />
+                                {profile.followers}
                             </div>
                         </div>
                         <div className="following">
-                            <div className="textBreak"><b>Followers</b><br/>
-                            {profile.followedBy}
+                            <div className="textBreak"><b>Followers</b><br />
+                                {profile.followedBy}
                             </div>
                         </div>
 

@@ -1,16 +1,28 @@
+import { Carousel } from 'react-bootstrap';
 import React from 'react';
+import { CarouselItem } from 'react-bootstrap';
 // import './InstaBlock.css';
 
 function InstaBlocks(props) {
-    console.log(props.props);
+    // console.log(props.props);
 
     const imageURL = props.props.imageURL;
+
+    const tryRender = [];
+    if (props.props.isMulti) {
+
+        props.props.multiple.forEach(element => {
+            tryRender.push(<CarouselItem>
+                <img alt="multi" src={element.node.display_url} style={{ width: '100%', height: '100%' }} />
+            </CarouselItem>);
+        });
+    }
 
     return (
         <div className="InstaBlockMain"
             style={{
-                width: props.props.width, height: 'auto', alignSelf: 'center', margin: '1%',
-                borderRadius: '15px', boxShadow: '0px 0px 5px 1px #00000045'    
+                width: props.props.width, height: 'auto', margin: '1%',
+                borderRadius: '15px', boxShadow: '0px 0px 5px 1px #00000045'
             }}>
 
             <div className="top">
@@ -18,16 +30,34 @@ function InstaBlocks(props) {
                 <span className="white paddingLeft">{props.props.username}</span>
             </div>
             <div className="image">
-                <img src={imageURL} alt="Instagram" style={{ width: '94%', height: '94%' }} />
+
+                {/* Single Photo */}
+
+                {!props.props.isMulti &&
+                    <img src={imageURL} alt="Instagram" style={{ width: '95%', height: '95%' }} />}
+
+
+                {/* Multi Photo */}
+
+                {props.props.isMulti &&
+                    <Carousel interval={10000} indicators>
+                        {tryRender}
+                    </Carousel>
+                }
             </div>
-            <div className="bottom">
-                <i className="fa fa-heart" aria-hidden="true"></i>
-                <span className="red">
-                    {props.props.likes}
-                </span>
-                <div className="middleGap" />
-                <i className="fa fa-comment" aria-hidden="true"></i>
-                {props.props.comments}
+            <div className="bottomContainer">
+                <div className="caption">
+                    {props.props.caption}
+                </div>
+                <div className="bottom">
+                    <i className="fa fa-heart" aria-hidden="true"></i>
+                    <span className="red">
+                        {props.props.likes}
+                    </span>
+                    <div className="middleGap" />
+                    <i className="fa fa-comment" aria-hidden="true"></i>
+                    {props.props.comments}
+                </div>
             </div>
         </div>
     );
