@@ -69,6 +69,7 @@ br {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
+        justify-content: center;
     }
 
     
@@ -80,6 +81,7 @@ br {
     .instaDetails {
         background-image: url("../Images/InstaBG.png");
         padding-right: 20%;
+        justify-content: flex-end;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
