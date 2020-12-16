@@ -106,7 +106,13 @@ html {
   width: 100%;
   height: fit-content;
   padding: 30px 10px;
-  background-color: rgba(192,227,231,0.9);
+  /* background-color: rgba(192,227,231,0.9);
+   */
+   background-image: url("./Images/InstaBG3.png");
+   /* background-attachment: fixed; */
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
