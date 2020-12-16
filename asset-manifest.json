@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/saketVerma/static/css/main.c3fd35cd.chunk.css",
+    "main.css": "/saketVerma/static/css/main.6b398d69.chunk.css",
     "main.js": "/saketVerma/static/js/main.b02efee1.chunk.js",
     "main.js.map": "/saketVerma/static/js/main.b02efee1.chunk.js.map",
     "runtime-main.js": "/saketVerma/static/js/runtime-main.7747ab14.js",
@@ -9,10 +9,10 @@
     "static/js/2.0d60c372.chunk.js": "/saketVerma/static/js/2.0d60c372.chunk.js",
     "static/js/2.0d60c372.chunk.js.map": "/saketVerma/static/js/2.0d60c372.chunk.js.map",
     "index.html": "/saketVerma/index.html",
-    "precache-manifest.11694bc4e91321671955588e2fae5c2c.js": "/saketVerma/precache-manifest.11694bc4e91321671955588e2fae5c2c.js",
+    "precache-manifest.381926cb92cf093bafea40abb8a476cd.js": "/saketVerma/precache-manifest.381926cb92cf093bafea40abb8a476cd.js",
     "service-worker.js": "/saketVerma/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/saketVerma/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.c3fd35cd.chunk.css.map": "/saketVerma/static/css/main.c3fd35cd.chunk.css.map",
+    "static/css/main.6b398d69.chunk.css.map": "/saketVerma/static/css/main.6b398d69.chunk.css.map",
     "static/js/2.0d60c372.chunk.js.LICENSE.txt": "/saketVerma/static/js/2.0d60c372.chunk.js.LICENSE.txt",
     "static/media/App.css": "/saketVerma/static/media/BG_new.b8d49645.png",
     "static/media/Bulb.png": "/saketVerma/static/media/Bulb.6e267c0b.png",
@@ -23,6 +23,7 @@
     "static/media/Flower.jpg": "/saketVerma/static/media/Flower.9df9bb1a.jpg",
     "static/media/Globe.png": "/saketVerma/static/media/Globe.e240b259.png",
     "static/media/Goa.png": "/saketVerma/static/media/Goa.93f2d81a.png",
+    "static/media/InstaDetails.css": "/saketVerma/static/media/InstaBG.4f3cbe20.png",
     "static/media/Keyboard.jpg": "/saketVerma/static/media/Keyboard.f08b9548.jpg",
     "static/media/Keyboard2.jpg": "/saketVerma/static/media/Keyboard2.344e094b.jpg",
     "static/media/Leaves.jpg": "/saketVerma/static/media/Leaves.6c646740.jpg",
@@ -37,7 +38,7 @@
     "static/js/runtime-main.7747ab14.js",
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.0d60c372.chunk.js",
-    "static/css/main.c3fd35cd.chunk.css",
+    "static/css/main.6b398d69.chunk.css",
     "static/js/main.b02efee1.chunk.js"
   ]
 }
