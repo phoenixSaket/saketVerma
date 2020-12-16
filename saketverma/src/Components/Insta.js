@@ -9,6 +9,10 @@ function Insta() {
     const [profile, setProfile] = useState([]);
     const [width, setWidth] = useState('47%');
 
+    const screenWidth = window.innerWidth;
+    console.log(screenWidth);
+
+
     useEffect(() => {
         fetch("https://www.instagram.com/saket.verma/?__a=1")
             .then(response => response.json())
@@ -24,6 +28,9 @@ function Insta() {
                     posts: jsonData.graphql.user.edge_owner_to_timeline_media.count,
                 })
                 setPosts(jsonData.graphql.user.edge_owner_to_timeline_media.edges);
+                if(screenWidth < 700) {
+                    setWidth('90%');
+                }
             })
             .catch((error) => {
                 // handle your errors here
@@ -59,21 +66,21 @@ function Insta() {
             }
         }
 
-        if (!!element.node.edge_media_to_caption.edges && !!element.node.edge_media_to_caption.edges[0]) {    
-            console.log(element.node.edge_media_to_caption.edges);    
+        if (!!element.node.edge_media_to_caption.edges && !!element.node.edge_media_to_caption.edges[0]) {
+            console.log(element.node.edge_media_to_caption.edges);
             dataToSend = {
-                    ...dataToSend,
-                    caption: element.node.edge_media_to_caption.edges[0].node.text,
-                }
-            } else {
-                dataToSend = {
-                    ...dataToSend,
-                    caption: null,
-                }
+                ...dataToSend,
+                caption: element.node.edge_media_to_caption.edges[0].node.text,
             }
+        } else {
+            dataToSend = {
+                ...dataToSend,
+                caption: null,
+            }
+        }
 
-            tryRender.push(<InstaBlocks props={dataToSend} />);
-        });
+        tryRender.push(<InstaBlocks props={dataToSend} />);
+    });
 
     // console.log(profile);
     return (
