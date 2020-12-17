@@ -30,14 +30,14 @@ function App() {
           <Navbar expand="sm">
             <div style={{ justifyContent: 'center', width: '100%', opacity: '0.9' }}>
               <div className="navbar-inner-container backgroundImage">
-                <Navbar.Brand>
+                <Navbar.Brand href="#">
                   <span className="topNoMobile"
                   style={{
                     cursor: 'pointer'
                   }}
                   onClick={(e)=>{
                     e.preventDefault();
-                    window.location.href="/saketVerma/";
+                    window.location.href="/saketVerma/#";
                   }}>
                   Saket Verma</span>
                 </Navbar.Brand>
