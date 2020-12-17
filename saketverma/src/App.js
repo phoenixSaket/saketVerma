@@ -7,6 +7,7 @@ import Education from "./Components/Education";
 import Experience from "./Components/Experience";
 import Other from "./Components/Other";
 import { Helmet } from "react-helmet";
+import ContactMe from "./Components/ContactMe";
 // import ContactMe from "./Components/ContactMe";
 
 function App() {
@@ -48,6 +49,9 @@ function App() {
                       </Nav.Link>
                       <Nav.Link href="#other" className="nav-links">
                         Other
+                      </Nav.Link>
+                      <Nav.Link href="#contactMe" className="nav-links">
+                        Contact Me
                       </Nav.Link>
                     </Nav>
                   </Navbar.Collapse>
@@ -165,6 +169,9 @@ function App() {
             // style={{ marginTop: "30px" }}
             >
               <Other />
+            </div>
+            <div id="contactMe">
+              <ContactMe />
             </div>
           </div>
           {/* <div className="sidebar-container tabletPlus ">
