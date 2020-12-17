@@ -7,6 +7,7 @@ function Company(props) {
   return (
     <div className="internshipContainer">
       <div className="company noWrapOnMobile">
+        <div className="TopSuperContainer">
         <div className="topContainer">
           <img alt={data.companyName} src={data.imageLink} style={{ width: '60px', height: '60px', borderRadius: '5px' }} />
           <div className="textContainerTop">
@@ -24,6 +25,7 @@ function Company(props) {
               </div>
           </div>
         </div>
+        </div>
         <div className="textContainerBottom">
           <span>
             {data.workingAs[0]}
@@ -37,13 +39,15 @@ function Company(props) {
           </span>}
         </div>
         <div className="workLink">
-          <a className="workLink" href={data.workLink[0]} rel='noopener noreferrer' target="_blank" >{data.workLink[0]}</a>
-          {!!data.workLink[1] &&
-          <a className="workLink inline"
-            href={data.workLink[1]} rel='noopener noreferrer' target="_blank" >
+          <span class="companyLink">
+            <a className="visitLink" href={data.workLink[0]} rel='noopener noreferrer' target="_blank" >{data.workLink[0]}</a>
+          </span>
+          {/* {!!data.workLink[1] && */}
+          {/* <a className="workLink inline" */}
+            {/* href={data.workLink[1]} rel='noopener noreferrer' target="_blank" > */}
             {/* <i className="fa fa-linkedin-square" style={{paddingRight: '5px'}}/> */}
-              PlexusMD's LinkedIn Profile
-            </a>}
+              {/* PlexusMD's LinkedIn Profile */}
+            {/* </a>} */}
         </div>
       </div>
       <div className="aboutCompany">

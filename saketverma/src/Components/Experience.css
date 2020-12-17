@@ -26,6 +26,9 @@
 }
 
 .textContainerBottom {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
   margin-top: 20px;
 }
 
@@ -58,9 +61,25 @@
   /* margin-top: 10px; */
   text-decoration-style: none !important;
   /* text-decoration-color: darkblue !important; */
-  color: #ffffff !important;
+  /* color: #ffffff !important; */
   display: flex;
   flex-direction: column;
+}
+
+.companyLink {
+  /* display: flex; */
+  /* width: 100%; */
+  /* justify-content: center; */
+  color: #E6E6E6;
+  /* background-color: #C0E3E7; */
+  /* padding: 0px 10px; */
+}
+
+.visitLink {
+  background-color: #C0E3E7;
+  color: #E6E6E6;
+  padding: 2px 15px;
+  width: fit-content;
 }
 
 .inline {
@@ -166,14 +185,34 @@ a#otherWork-tab-KLWP, a#otherWork-tab-Instagram {
 @media only screen and (min-width: 300px) {
   /* Mobile Devices */
 
+  .companyLink {  
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    color: #E6E6E6;
+    background-color: #C0E3E7;
+    padding: 0px 10px;
+    }
+    
+
   .noWrapOnMobile {
     display: flex;
     flex-wrap: nowrap;
+    width: 100%;
+  }
+
+  .textContainerBottom  {
+    align-items: center;
   }
 
   .aboutCompany {
     max-width: 100%;
     /* text-align: center;  */
+  }
+
+  .TopSuperContainer {
+    display: flex;
+    justify-content: flex-start ;
   }
 
   .CompanyNameBottom {
@@ -182,11 +221,12 @@ a#otherWork-tab-KLWP, a#otherWork-tab-Instagram {
 }
 
 @media only screen and (min-width: 750px) {
-  /* Mobile Devices */
+  /* Tablet and above Devices */
 
   .noWrapOnMobile {
     display: flex;
     flex-wrap: wrap;
+    width: min-content;
   }
 
   .aboutCompany {
@@ -197,4 +237,15 @@ a#otherWork-tab-KLWP, a#otherWork-tab-Instagram {
   .CompanyNameBottom {
     justify-content: flex-start;
   }
+
+  .companyLink {  
+    /* display: flex; */
+    /* width: 100%; */
+    /* justify-content: center; */
+    color: #E6E6E6;
+    background-color: #C0E3E7;
+    /* padding: 0px 10px; */
+    }
+
+  
 }

@@ -47,7 +47,7 @@ function App() {
                   <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
                     <Nav className="justify-content-end ">
                       <Nav.Link href="#content" className="nav-links">
-                        About Me
+                      About Me
                       </Nav.Link>
                       <Nav.Link href="#education" className="nav-links">
                         Education

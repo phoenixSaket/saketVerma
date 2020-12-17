@@ -22,13 +22,7 @@ function ExperienceAndWork() {
             "www.plexusmd.com",
             "https://www.linkedin.com/company/plexusmd/"
           ]}
-          aboutCompany="PlexusMD is an online professional network exclusively for medical professionals and healthcare organisations.
-          With lakhs of doctors and hundreds of hospitals across India,
-          we are India's fastest growing online community of healthcare professionals.
-          PlexusMD helps doctors create their professional identity on the web,
-          stay updated with the latest news and developments in their specialty,
-          find & connect with other medical professionals and apply to the best jobs,
-          fellowships and courses from leading institutions."
+          aboutCompany="PlexusMD is an online professional network exclusively for medical professionals and healthcare organisations."
         />
         <Company
           companyName="ScrollRight"
@@ -42,7 +36,7 @@ function ExperienceAndWork() {
             "www.scrollright.com"
           ]}
           aboutCompany="ScrollRight is a online freelance service provider and product building company where you can ask to create
-          your own app, website, software. Also, we provided freelance support to any firm, company who needs it. Think Big.
+          your own app, website, software. Think Big.
           Think Innovative. Think ScrollRight!"
         />
         <Company

@@ -6,6 +6,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import { Button } from 'react-bootstrap';
 import { useState } from 'react';
 import * as emailjs from 'emailjs-com'
+import { Modal } from 'react-bootstrap';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -19,6 +20,10 @@ const useStyles = makeStyles((theme) => ({
 function ContactMe() {
   const classes = useStyles();
 
+  const [isEmailError, setIsEmailError] = useState(false);
+  const [modalShow, setModalShow] = React.useState(false);
+
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -27,30 +32,40 @@ function ContactMe() {
   });
 
   function handleSubmit(e) {
-    e.preventDefault()
-    console.log(formData);
     const { name, email, subject, message } = formData;
+
     let templateParams = {
-      from_name: email,
+      name: name,
+      from_email: email,
       to_name: 'develope.saket@gmail.com',
       subject: subject,
-      message_html: message,
+      message: message,
     }
-    emailjs.send(
-      'service_hyg0hkb',
-      'template_8fvylwn',
-      templateParams,
-      'user_WgooPhzQ9qwK3mob5BE1A'
-    )
 
-    setFormData({
-      name: '',
-      email: '',
-      subject: '',
-      message: '',
-    });
+    if (/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(email)) {
+
+
+      emailjs.send(
+        'service_hyg0hkb',
+        'template_8fvylwn',
+        templateParams,
+        'user_WgooPhzQ9qwK3mob5BE1A'
+      ) .then(function(response) {
+        setModalShow(true);
+      }, function(error) {
+        console.log("error")
+      })
+
+      setFormData({
+        name: '',
+        email: '',
+        subject: '',
+        message: '',
+      });
+    } else {
+      setIsEmailError(true);
+    }
   }
-
 
 
 
@@ -71,6 +86,7 @@ function ContactMe() {
           className="email w-75"
           required
           label="Email"
+          error={isEmailError}
           value={formData.email}
           onChange={(e) => { setFormData({ ...formData, email: e.target.value }) }}
           defaultValue=""
@@ -100,7 +116,37 @@ function ContactMe() {
           Send
         </Button>
       </form>
+      <MyVerticallyCenteredModal
+        show={modalShow}
+        onHide={() => setModalShow(false)}
+      />
     </div>
+  );
+}
+
+function MyVerticallyCenteredModal(props) {
+  return (
+    <Modal
+      {...props}
+      size="lg"
+      aria-labelledby="contained-modal-title-vcenter"
+      centered
+    >
+      <Modal.Header closeButton>
+        <Modal.Title id="contained-modal-title-vcenter">
+          Message Sent
+        </Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        <p>
+          KUDOS !
+          Your message has been sent.
+        </p>
+      </Modal.Body>
+      <Modal.Footer>
+        <Button onClick={props.onHide}>Close</Button>
+      </Modal.Footer>
+    </Modal>
   );
 }
 
