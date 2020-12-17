@@ -10,7 +10,7 @@ function Insta() {
     const [width, setWidth] = useState('47%');
 
     const screenWidth = window.innerWidth;
-    console.log(screenWidth);
+    // console.log(screenWidth);
 
 
     useEffect(() => {
@@ -18,7 +18,7 @@ function Insta() {
             .then(response => response.json())
             .then((jsonData) => {
                 // jsonData is parsed json object received from url
-                console.log("DATA ", jsonData);
+                // console.log("DATA ", jsonData);
                 setProfile({
                     profilePic: jsonData.graphql.user.profile_pic_url_hd,
                     biography: jsonData.graphql.user.biography,
@@ -34,14 +34,14 @@ function Insta() {
             })
             .catch((error) => {
                 // handle your errors here
-                console.error(error)
+                // console.error(error)
             })
     }, []);
 
     const tryRender = [];
 
     posts.forEach(element => {
-        console.log(element);
+        // console.log(element);
         let dataToSend = {
             imageURL: element.node.display_url,
             width: width,
@@ -67,7 +67,7 @@ function Insta() {
         }
 
         if (!!element.node.edge_media_to_caption.edges && !!element.node.edge_media_to_caption.edges[0]) {
-            console.log(element.node.edge_media_to_caption.edges);
+            // console.log(element.node.edge_media_to_caption.edges);
             dataToSend = {
                 ...dataToSend,
                 caption: element.node.edge_media_to_caption.edges[0].node.text,
