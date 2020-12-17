@@ -31,7 +31,15 @@ function App() {
             <div style={{ justifyContent: 'center', width: '100%', opacity: '0.9' }}>
               <div className="navbar-inner-container backgroundImage">
                 <Navbar.Brand>
-                  <span className="topNoMobile">Saket Verma</span>
+                  <span className="topNoMobile"
+                  style={{
+                    cursor: 'pointer'
+                  }}
+                  onClick={(e)=>{
+                    e.preventDefault();
+                    window.location.href="/saketVerma/";
+                  }}>
+                  Saket Verma</span>
                 </Navbar.Brand>
                 <div className="toggler-custom">
                   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
