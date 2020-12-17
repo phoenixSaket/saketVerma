@@ -55,7 +55,7 @@ function ContactMe() {
 
 
   return (
-    <div className="semi-white-bg padding20 marginTop30">
+    <div className="semi-white-bg boxShadow padding20 marginTop30">
       <span className="center-text heading-sub paddingBottom20">CONTACT ME</span>
       <form className={classes.root + ' w-100 contactContainer'} noValidate autoComplete="off">
         <TextField
