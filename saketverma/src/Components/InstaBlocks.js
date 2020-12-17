@@ -34,8 +34,8 @@ function InstaBlocks(props) {
                 {/* Single Photo */}
 
                 {!props.props.isMulti &&
-                    <div className="carouselContainer">
-                        <div className="carouselInner">
+                    <div className="carouselContainer2">
+                        <div className="carouselInner2">
                             <Carousel indicators={false} controls={false}>
                                 <CarouselItem>
                                     <img src={imageURL} alt="Instagram" style={{ width: '100%', height: '100%' }} />
@@ -48,8 +48,8 @@ function InstaBlocks(props) {
                 {/* Multi Photo */}
 
                 {props.props.isMulti &&
-                    <div className="carouselContainer">
-                        <div className="carouselInner">
+                    <div className="carouselContainer2">
+                        <div className="carouselInner2">
                             <Carousel interval={10000} indicators>
                                 {tryRender}
                             </Carousel>

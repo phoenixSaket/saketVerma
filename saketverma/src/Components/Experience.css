@@ -152,6 +152,11 @@ a#otherWork-tab-KLWP, a#otherWork-tab-Instagram {
   font-weight: bold;
 }
 
+#otherWork-tabpane-KLWP .carousel-container {
+  display: block;
+  flex-direction: column;
+}
+
 
 .modal-backdrop.show {
   opacity: 0.97 !important;

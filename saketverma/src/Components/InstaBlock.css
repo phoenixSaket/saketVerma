@@ -33,12 +33,12 @@
     padding: 35px;
 }
 
-.carouselContainer {
+.carouselContainer2 {
     display: flex;
     justify-content: center;
 }
 
-.carouselInner {
+.carouselInner2 {
     width: 95%;
     height: 95%;
 }
