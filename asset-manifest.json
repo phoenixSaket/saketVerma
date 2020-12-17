@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/saketVerma/static/css/main.b5b15398.chunk.css",
-    "main.js": "/saketVerma/static/js/main.506573a0.chunk.js",
-    "main.js.map": "/saketVerma/static/js/main.506573a0.chunk.js.map",
+    "main.css": "/saketVerma/static/css/main.ac7a87e5.chunk.css",
+    "main.js": "/saketVerma/static/js/main.4dc81d2e.chunk.js",
+    "main.js.map": "/saketVerma/static/js/main.4dc81d2e.chunk.js.map",
     "runtime-main.js": "/saketVerma/static/js/runtime-main.7747ab14.js",
     "runtime-main.js.map": "/saketVerma/static/js/runtime-main.7747ab14.js.map",
     "static/css/2.af3c1da9.chunk.css": "/saketVerma/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.c241b9f0.chunk.js": "/saketVerma/static/js/2.c241b9f0.chunk.js",
-    "static/js/2.c241b9f0.chunk.js.map": "/saketVerma/static/js/2.c241b9f0.chunk.js.map",
+    "static/js/2.08fa27f4.chunk.js": "/saketVerma/static/js/2.08fa27f4.chunk.js",
+    "static/js/2.08fa27f4.chunk.js.map": "/saketVerma/static/js/2.08fa27f4.chunk.js.map",
     "index.html": "/saketVerma/index.html",
-    "precache-manifest.e1b55cb759e7214b71fee1b42d35f118.js": "/saketVerma/precache-manifest.e1b55cb759e7214b71fee1b42d35f118.js",
+    "precache-manifest.d934a41431906741f8731dab80c93552.js": "/saketVerma/precache-manifest.d934a41431906741f8731dab80c93552.js",
     "service-worker.js": "/saketVerma/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/saketVerma/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.b5b15398.chunk.css.map": "/saketVerma/static/css/main.b5b15398.chunk.css.map",
-    "static/js/2.c241b9f0.chunk.js.LICENSE.txt": "/saketVerma/static/js/2.c241b9f0.chunk.js.LICENSE.txt",
+    "static/css/main.ac7a87e5.chunk.css.map": "/saketVerma/static/css/main.ac7a87e5.chunk.css.map",
+    "static/js/2.08fa27f4.chunk.js.LICENSE.txt": "/saketVerma/static/js/2.08fa27f4.chunk.js.LICENSE.txt",
     "static/media/InstaBlock.css": "/saketVerma/static/media/Abstract1.fd536bf8.png",
     "static/media/App.css": "/saketVerma/static/media/BG_new.b8d49645.png",
     "static/media/Bulb.png": "/saketVerma/static/media/Bulb.6e267c0b.png",
@@ -38,8 +38,8 @@
   "entrypoints": [
     "static/js/runtime-main.7747ab14.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.c241b9f0.chunk.js",
-    "static/css/main.b5b15398.chunk.css",
-    "static/js/main.506573a0.chunk.js"
+    "static/js/2.08fa27f4.chunk.js",
+    "static/css/main.ac7a87e5.chunk.css",
+    "static/js/main.4dc81d2e.chunk.js"
   ]
 }
