@@ -40,7 +40,7 @@ function Company(props) {
         </div>
         <div className="workLink">
           <span class="companyLink">
-            <a className="visitLink" href={data.workLink[0]} rel='noopener noreferrer' target="_blank" >{data.workLink[0]}</a>
+            <a className="visitLink" href={data.workLink[0]} rel='noopener noreferrer' target="_blank" >{data.workLink[0].substring(8,data.workLink[0].length)}</a>
           </span>
           {/* {!!data.workLink[1] && */}
           {/* <a className="workLink inline" */}

@@ -231,7 +231,7 @@ a {
   border-color: rgba(0,0,0,0) !important;
 }
 
-#content, #education, #experience, #other {
+#content, #education, #experience, #other, #contactMe, #skills {
   padding-top: 20px;
 }
 

@@ -1,0 +1,20 @@
+.skillContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+}
+
+.skillTitle {
+    display: flex;
+    justify-content: center;
+}
+
+.skill {
+    width: 100%;
+    align-items: center;
+}
+
+.progress {
+    height: 1.5rem !important;
+}

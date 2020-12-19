@@ -19,7 +19,7 @@ function ExperienceAndWork() {
             "Search Engine Optimizations"
           ]}
           workLink={[
-            "www.plexusmd.com",
+            "https://www.plexusmd.com",
             "https://www.linkedin.com/company/plexusmd/"
           ]}
           aboutCompany="PlexusMD is an online professional network exclusively for medical professionals and healthcare organisations."
@@ -33,7 +33,7 @@ function ExperienceAndWork() {
             "Software Developer"
           ]}
           workLink={[
-            "www.scrollright.com"
+            "https://www.scrollright.com"
           ]}
           aboutCompany="ScrollRight is a online freelance service provider and product building company where you can ask to create
           your own app, website, software. Think Big.
@@ -48,7 +48,7 @@ function ExperienceAndWork() {
             "Software Developer"
           ]}
           workLink={[
-            "www.citiutech.com"
+            "https://www.citiustech.com"
           ]}
           aboutCompany="CitiusTech is a healthcare IT company providing specialized healthcare technology & business services, consulting, and medical IT solutions."
         />

@@ -8,6 +8,7 @@ import Experience from "./Components/Experience";
 import Other from "./Components/Other";
 import { Helmet } from "react-helmet";
 import ContactMe from "./Components/ContactMe";
+import Skills from "./Components/Skills";
 // import ContactMe from "./Components/ContactMe";
 
 function App() {
@@ -32,14 +33,14 @@ function App() {
               <div className="navbar-inner-container backgroundImage">
                 <Navbar.Brand href="#">
                   <span className="topNoMobile"
-                  style={{
-                    cursor: 'pointer'
-                  }}
-                  onClick={(e)=>{
-                    e.preventDefault();
-                    window.location.href="/saketVerma/#";
-                  }}>
-                  Saket Verma</span>
+                    style={{
+                      cursor: 'pointer'
+                    }}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      window.location.href = "/saketVerma/#";
+                    }}>
+                    Saket Verma</span>
                 </Navbar.Brand>
                 <div className="toggler-custom">
                   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -47,10 +48,13 @@ function App() {
                   <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
                     <Nav className="justify-content-end ">
                       <Nav.Link href="#content" className="nav-links">
-                      About Me
+                        About Me
                       </Nav.Link>
                       <Nav.Link href="#education" className="nav-links">
                         Education
+                      </Nav.Link>
+                      <Nav.Link href="#skills" className="nav-links">
+                        Skills
                       </Nav.Link>
                       <Nav.Link href="#experience" className="nav-links">
                         Experience
@@ -168,6 +172,11 @@ function App() {
             >
               <Education />
             </div>
+            
+            <div id="skills">
+                <Skills />
+              </div>
+
             <div id="experience"
             // style={{ marginTop: "40px" }}
             >

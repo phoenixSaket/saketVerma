@@ -21,8 +21,11 @@ function ContactMe() {
   const classes = useStyles();
 
   const [isEmailError, setIsEmailError] = useState(false);
-  const [modalShow, setModalShow] = React.useState(false);
-
+  const [isNameError, setIsNameError] = useState(false);
+  const [isSubjectError, setIsSubjectError] = useState(false);
+  const [isMessageError, setIsMessageError] = useState(false);
+  const [showErrorModal, setShowErrorModal] = useState(false);
+  const [modalShow, setModalShow] = useState(false);
 
   const [formData, setFormData] = useState({
     name: '',
@@ -42,9 +45,29 @@ function ContactMe() {
       message: message,
     }
 
-    if (/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(email)) {
+    if (!(/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(email))) {
+      setIsEmailError(true);
+      setShowErrorModal(true);
+    } 
 
+    if(name.length === 0) {
+      setShowErrorModal(true);
+      setIsNameError(true);
+      
+    }
 
+    if(subject.length === 0) {
+      setIsSubjectError(true);
+      setShowErrorModal(true);
+    }
+
+    if(message.length === 0) {
+      setShowErrorModal(true);
+      setIsMessageError(true);
+    }
+
+    if(!isEmailError && !isNameError && !isSubjectError && !isMessageError) {
+      
       emailjs.send(
         'service_hyg0hkb',
         'template_8fvylwn',
@@ -52,10 +75,11 @@ function ContactMe() {
         'user_WgooPhzQ9qwK3mob5BE1A'
       ) .then(function(response) {
         setModalShow(true);
+        setShowErrorModal(false);
       }, function(error) {
         console.log("error")
       })
-
+  
       setFormData({
         name: '',
         email: '',
@@ -63,14 +87,13 @@ function ContactMe() {
         message: '',
       });
     } else {
-      setIsEmailError(true);
+      setModalShow(false);
+      setShowErrorModal(true);
     }
   }
 
-
-
   return (
-    <div className="semi-white-bg boxShadow padding20 marginTop30">
+    <div className="semi-white-bg boxShadow padding20" style={{ marginTop: "30px" }}>
       <span className="center-text heading-sub paddingBottom20">CONTACT ME</span>
       <form className={classes.root + ' w-100 contactContainer'} noValidate autoComplete="off">
         <TextField
@@ -78,6 +101,7 @@ function ContactMe() {
           required
           label="Name"
           value={formData.name}
+          error={isNameError}
           onChange={(e) => { setFormData({ ...formData, name: e.target.value }) }}
           defaultValue=""
           variant="outlined"
@@ -96,6 +120,7 @@ function ContactMe() {
           className="subject w-75"
           required
           label="Subject"
+          error={isSubjectError}
           value={formData.subject}
           onChange={(e) => { setFormData({ ...formData, subject: e.target.value }) }}
           defaultValue=""
@@ -105,6 +130,7 @@ function ContactMe() {
           className="message w-75"
           required
           label="Message"
+          error={isMessageError}
           value={formData.message}
           onChange={(e) => { setFormData({ ...formData, message: e.target.value }) }}
           multiline
@@ -116,10 +142,15 @@ function ContactMe() {
           Send
         </Button>
       </form>
-      <MyVerticallyCenteredModal
+      {(!isEmailError && !isNameError && !isSubjectError && !isMessageError) &&<MyVerticallyCenteredModal
         show={modalShow}
         onHide={() => setModalShow(false)}
-      />
+      />}
+
+      {ErrorModal && <ErrorModal 
+        show={showErrorModal}
+        onHide={() => setShowErrorModal(false)}
+      />}
     </div>
   );
 }
@@ -149,5 +180,32 @@ function MyVerticallyCenteredModal(props) {
     </Modal>
   );
 }
+
+function ErrorModal(props) {
+  return (
+    <Modal
+      {...props}
+      size="lg"
+      aria-labelledby="contained-modal-title-vcenter"
+      centered
+    >
+      <Modal.Header closeButton>
+        <Modal.Title id="contained-modal-title-vcenter">
+          Message Not Sent
+        </Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        <p>
+          <span style={{color: 'red'}}>Error !</span>
+          Your message has <span style={{color: 'red'}}>NOT</span> been sent.
+        </p>
+      </Modal.Body>
+      <Modal.Footer>
+        <Button onClick={props.onHide}>Close</Button>
+      </Modal.Footer>
+    </Modal>
+  );
+}
+
 
 export default ContactMe;
