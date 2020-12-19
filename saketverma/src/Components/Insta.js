@@ -36,7 +36,7 @@ function Insta() {
                 // handle your errors here
                 // console.error(error)
             })
-    }, []);
+    }, [screenWidth]);
 
     const tryRender = [];
 

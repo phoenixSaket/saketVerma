@@ -24,3 +24,25 @@
 .modal-backdrop.show {
     opacity: 0.3 !important;
 }
+
+.centerText {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.textBG {
+    background-color: #C0E3E7;
+}
+
+.text {
+    padding: 15px;
+    border-radius: 10px;
+    width: 75%;
+}
+
+.marginBottom10 {
+    margin-bottom: 10px;
+}

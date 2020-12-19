@@ -67,13 +67,12 @@ function ContactMe() {
     }
 
     if(!isEmailError && !isNameError && !isSubjectError && !isMessageError) {
-      
       emailjs.send(
         'service_hyg0hkb',
         'template_8fvylwn',
         templateParams,
         'user_WgooPhzQ9qwK3mob5BE1A'
-      ) .then(function(response) {
+      ).then(function(response) {
         setModalShow(true);
         setShowErrorModal(false);
       }, function(error) {
@@ -89,6 +88,12 @@ function ContactMe() {
     } else {
       setModalShow(false);
       setShowErrorModal(true);
+      setFormData({
+        name: name,
+        email: email,
+        subject: subject,
+        message: message,
+      });
     }
   }
 
@@ -96,6 +101,10 @@ function ContactMe() {
     <div className="semi-white-bg boxShadow padding20" style={{ marginTop: "30px" }}>
       <span className="center-text heading-sub paddingBottom20">CONTACT ME</span>
       <form className={classes.root + ' w-100 contactContainer'} noValidate autoComplete="off">
+        <span className="text centerText bold textBG shadows marginBottom10">
+          For any query / work related enquiry, fill and send the details :<br/>
+          I will get in touch with you 😉 
+        </span>
         <TextField
           className="name w-75"
           required
