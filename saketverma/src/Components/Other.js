@@ -13,7 +13,7 @@ function Other() {
   const screenHeight = window.innerHeight;
   // console.log(screenHeight, screenWidth)
   const [show, setShow] = useState(false);
-  const [key, setKey] = useState('Instagram');
+  const [key, setKey] = useState('KLWP');
   const [currentImage, setCurrentImage] = useState(0);
   const openIndexSetter = useCallback((event, { index }) => {
     setShow(true);

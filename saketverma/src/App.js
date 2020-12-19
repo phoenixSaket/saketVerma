@@ -134,6 +134,15 @@ function App() {
                         <i className="fa fa-github" />
                       </span>
                     </a>
+                    <a
+                      href="https://www.linkedin.com/in/developer-saket-verma"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      <span>
+                        <i className="fa fa-linkedin" />
+                      </span>
+                    </a>
                   </div>
                   <div className="personalContact">
                     <div className="personalPhone">
