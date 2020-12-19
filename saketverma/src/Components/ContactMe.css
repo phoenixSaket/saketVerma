@@ -17,8 +17,12 @@
 
 .modal-content {
     flex-direction: column !important;
-    background-color: #fff !important;
+    /* background-color: #fff !important; */
     border: 1px solid rgba(0,0,0,0.2);
+    background-image: url("../Images/modalBG.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .modal-backdrop.show {
@@ -45,4 +49,11 @@
 
 .marginBottom10 {
     margin-bottom: 10px;
+}
+
+.btn-primary {
+    background-color: #FFD900 !important;
+    color: black !important;
+    border: none !important;
+    box-shadow: 0px 0px 2px darkgray;
 }

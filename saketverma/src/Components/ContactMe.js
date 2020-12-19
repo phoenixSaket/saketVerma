@@ -178,8 +178,8 @@ function MyVerticallyCenteredModal(props) {
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <p>
-          KUDOS !
+        <p className="centerText">
+          <strong>KUDOS !</strong><br/>
           Your message has been sent.
         </p>
       </Modal.Body>
@@ -204,9 +204,10 @@ function ErrorModal(props) {
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <p>
-          <span style={{color: 'red'}}>Error !</span>
-          Your message has <span style={{color: 'red'}}>NOT</span> been sent.
+        <p className="centerText">
+          <span className="bold" style={{color: 'red'}}>Some invalid input !</span>
+          <br/>
+          Your message has <span className="bold" style={{color: 'red'}}>NOT</span> been sent.
         </p>
       </Modal.Body>
       <Modal.Footer>
