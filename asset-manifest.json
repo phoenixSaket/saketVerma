@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/saketVerma/static/css/main.aa7087b0.chunk.css",
-    "main.js": "/saketVerma/static/js/main.1adfc0ec.chunk.js",
-    "main.js.map": "/saketVerma/static/js/main.1adfc0ec.chunk.js.map",
+    "main.css": "/saketVerma/static/css/main.6af998cd.chunk.css",
+    "main.js": "/saketVerma/static/js/main.6b6d4e1f.chunk.js",
+    "main.js.map": "/saketVerma/static/js/main.6b6d4e1f.chunk.js.map",
     "runtime-main.js": "/saketVerma/static/js/runtime-main.7747ab14.js",
     "runtime-main.js.map": "/saketVerma/static/js/runtime-main.7747ab14.js.map",
     "static/css/2.af3c1da9.chunk.css": "/saketVerma/static/css/2.af3c1da9.chunk.css",
     "static/js/2.ae76e8e5.chunk.js": "/saketVerma/static/js/2.ae76e8e5.chunk.js",
     "static/js/2.ae76e8e5.chunk.js.map": "/saketVerma/static/js/2.ae76e8e5.chunk.js.map",
     "index.html": "/saketVerma/index.html",
-    "precache-manifest.729063ffc58cfe2a42b8410e65fa3160.js": "/saketVerma/precache-manifest.729063ffc58cfe2a42b8410e65fa3160.js",
+    "precache-manifest.d28aa7e04bc68c1d1093dd779f204f03.js": "/saketVerma/precache-manifest.d28aa7e04bc68c1d1093dd779f204f03.js",
     "service-worker.js": "/saketVerma/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/saketVerma/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.aa7087b0.chunk.css.map": "/saketVerma/static/css/main.aa7087b0.chunk.css.map",
+    "static/css/main.6af998cd.chunk.css.map": "/saketVerma/static/css/main.6af998cd.chunk.css.map",
     "static/js/2.ae76e8e5.chunk.js.LICENSE.txt": "/saketVerma/static/js/2.ae76e8e5.chunk.js.LICENSE.txt",
     "static/media/InstaBlock.css": "/saketVerma/static/media/Abstract1.fd536bf8.png",
     "static/media/App.css": "/saketVerma/static/media/BG_new.b8d49645.png",
@@ -32,6 +32,7 @@
     "static/media/Quick.png": "/saketVerma/static/media/Quick.64506115.png",
     "static/media/Quickv2.png": "/saketVerma/static/media/Quickv2.d6aba790.png",
     "static/media/Tree.jpg": "/saketVerma/static/media/Tree.cb30b572.jpg",
+    "static/media/ContactMe.css": "/saketVerma/static/media/modalBG.53400749.jpg",
     "static/media/photu.jpg": "/saketVerma/static/media/photu.bd7311f0.jpg",
     "static/media/sr_mukul.png": "/saketVerma/static/media/sr_mukul.8e3e472f.png"
   },
@@ -39,7 +40,7 @@
     "static/js/runtime-main.7747ab14.js",
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.ae76e8e5.chunk.js",
-    "static/css/main.aa7087b0.chunk.css",
-    "static/js/main.1adfc0ec.chunk.js"
+    "static/css/main.6af998cd.chunk.css",
+    "static/js/main.6b6d4e1f.chunk.js"
   ]
 }
