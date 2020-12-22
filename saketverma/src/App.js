@@ -28,7 +28,7 @@ function App() {
       </Helmet>
       <Container className="containerMain" size="md">
         <div className="navbar-container">
-          <Navbar expand="sm">
+          <Navbar collapseOnSelect expand="sm">
             <div style={{ justifyContent: 'center', width: '100%', opacity: '0.9' }}>
               <div className="navbar-inner-container backgroundImage">
                 <Navbar.Brand href="#">
