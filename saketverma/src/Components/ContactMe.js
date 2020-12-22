@@ -101,7 +101,7 @@ function ContactMe() {
     <div className="semi-white-bg boxShadow padding20" style={{ marginTop: "30px" }}>
       <span className="center-text heading-sub paddingBottom20">CONTACT ME</span>
       <form className={classes.root + ' w-100 contactContainer'} noValidate autoComplete="off">
-        <span className="text centerText bold textBG shadows marginBottom10">
+        <span className="text centerText bold textBG marginBottom10" style={{boxShadow : '0px 0px 5px 1px rgba(0,0,0,0.3)'}}>
           For any query / work related enquiry, fill and send the details :<br/>
           I will get in touch with you 😉 
         </span>
