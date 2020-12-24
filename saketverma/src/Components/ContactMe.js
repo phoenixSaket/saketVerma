@@ -40,7 +40,7 @@ function ContactMe() {
     let templateParams = {
       name: name,
       from_email: email,
-      to_name: 'develope.saket@gmail.com',
+      to_name: email,
       subject: subject,
       message: message,
     }
