@@ -168,7 +168,7 @@ function MyVerticallyCenteredModal(props) {
   return (
     <Modal
       {...props}
-      size="lg"
+      //size="md"
       aria-labelledby="contained-modal-title-vcenter"
       centered
     >
@@ -194,7 +194,7 @@ function ErrorModal(props) {
   return (
     <Modal
       {...props}
-      size="lg"
+      //size="lg"
       aria-labelledby="contained-modal-title-vcenter"
       centered
     >
