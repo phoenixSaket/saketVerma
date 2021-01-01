@@ -157,6 +157,7 @@ function ContactMe() {
       />}
 
       {ErrorModal && <ErrorModal 
+        className="ErrorModal"
         show={showErrorModal}
         onHide={() => setShowErrorModal(false)}
       />}
@@ -177,7 +178,7 @@ function MyVerticallyCenteredModal(props) {
           Message Sent
         </Modal.Title>
       </Modal.Header>
-      <Modal.Body>
+      <Modal.Body className="ErrorModalBody">
         <p className="centerText">
           <strong>KUDOS !</strong><br/>
           Your message has been sent.
