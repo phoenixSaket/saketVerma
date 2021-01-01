@@ -4,11 +4,11 @@
     margin: 1%;
     border-radius: 10px;
     box-shadow: 0px 0px 5px 5px #00000045;
-
+    padding: 10px;
     display: flex;
     align-self: stretch;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .backgroundImage {
@@ -68,24 +68,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: black;
+    color: white;
 }
 
 .red {
-    color: red;
+    color: white;
 }
 
 .white {
-    color: black;
+    color: white;
 }
 
 .fa-heart {
-    color: red;
+    color: white;
     padding: 5px;
 }
 
 .fa-comment {
-    color: black;
+    color: white;
     padding: 5px;
 }
 
@@ -123,8 +123,11 @@
 
 .carousel-indicators {
     /* bottom: 0 !important; */
-    top: 100% !important;
+    /* top: 100% !important; */
+    /* background-color: rgba(255, 255, 255, 0.5); */
 }
+
+
 
 .carousel-indicators li {
     background-color: black !important;
@@ -133,4 +136,24 @@
     height: 7px !important;
     margin-left: 5px !important;
     margin-right: 5px !important;
+}
+
+.InstaBlockMain .showOnHover {
+    display: none;
+}
+
+.InstaBlockMain:hover .showOnHover {
+    display: flex !important;
+}
+
+
+.showOnHover {
+    padding-bottom: 20px !important;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    width: inherit;
+    height: 100%;
+    z-index: unset !important;
+    justify-content: center;
+    align-items: center;
+
 }

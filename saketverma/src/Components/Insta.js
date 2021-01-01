@@ -18,7 +18,7 @@ function Insta() {
             .then(response => response.json())
             .then((jsonData) => {
                 // jsonData is parsed json object received from url
-                // console.log("DATA ", jsonData);
+                console.log("DATA ", jsonData);
                 setProfile({
                     profilePic: jsonData.graphql.user.profile_pic_url_hd,
                     biography: jsonData.graphql.user.biography,

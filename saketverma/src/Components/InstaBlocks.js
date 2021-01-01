@@ -1,6 +1,7 @@
 import { Carousel } from 'react-bootstrap';
 import React from 'react';
 import { CarouselItem } from 'react-bootstrap';
+import CarouselCaption from 'react-bootstrap/CarouselCaption';
 // import './InstaBlock.css';
 
 function InstaBlocks(props) {
@@ -14,21 +15,38 @@ function InstaBlocks(props) {
         props.props.multiple.forEach(element => {
             tryRender.push(<CarouselItem>
                 <img alt="multi" src={element.node.display_url} style={{ width: '100%', height: '100%' }} />
+                <CarouselCaption className="showOnHover">
+                    <div className="bottomContainer">
+                        <div className="caption">
+                            {props.props.caption}
+                        </div>
+                        <div className="bottom">
+                            <i className="fa fa-heart" aria-hidden="true"></i>
+                            <span className="red">
+                                {props.props.likes}
+                            </span>
+                            <div className="middleGap" />
+                            <i className="fa fa-comment" aria-hidden="true"></i>
+                            {props.props.comments}
+                        </div>
+                    </div>
+                </CarouselCaption>
             </CarouselItem>);
         });
     }
+    
 
     return (
         <div className="InstaBlockMain"
             style={{
                 width: props.props.width, height: 'auto', margin: '1%',
-                borderRadius: '15px', boxShadow: '0px 0px 5px 1px #00000045'
+                borderRadius: '0px', boxShadow: '0px 0px 5px 1px #00000045'
             }}>
 
-            <div className="top">
+            {/* <div className="top">
                 <img src={props.props.avatar} alt="avatar" className="instaAvatar" />
                 <span className="white paddingLeft">{props.props.username}</span>
-            </div>
+            </div> */}
             <div className="image">
 
                 {/* Single Photo */}
@@ -39,6 +57,22 @@ function InstaBlocks(props) {
                             <Carousel indicators={false} controls={false}>
                                 <CarouselItem>
                                     <img src={imageURL} alt="Instagram" style={{ width: '100%', height: '100%' }} />
+                                    <CarouselCaption className="showOnHover">
+                                        <div className="bottomContainer">
+                                            <div className="caption">
+                                                {props.props.caption}
+                                            </div>
+                                            <div className="bottom">
+                                                <i className="fa fa-heart" aria-hidden="true"></i>
+                                                <span className="red">
+                                                    {props.props.likes}
+                                                </span>
+                                                <div className="middleGap" />
+                                                <i className="fa fa-comment" aria-hidden="true"></i>
+                                                {props.props.comments}
+                                            </div>
+                                        </div>
+                                    </CarouselCaption>
                                 </CarouselItem>
                             </Carousel>
                         </div>
@@ -57,7 +91,7 @@ function InstaBlocks(props) {
                     </div>
                 }
             </div>
-            <div className="bottomContainer">
+            {/* <div className="bottomContainer">
                 <div className="caption">
                     {props.props.caption}
                 </div>
@@ -70,7 +104,7 @@ function InstaBlocks(props) {
                     <i className="fa fa-comment" aria-hidden="true"></i>
                     {props.props.comments}
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 }
