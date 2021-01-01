@@ -212,7 +212,7 @@ function Other() {
         <i className="fa fa-chevron-circle-right"
           onClick={
             () => {
-              if (currentImage === photosFull.length) {
+              if (currentImage === photosFull.length-1) {
                 setCurrentImage(0)
               } else {
                 setCurrentImage(currentImage + 1)
