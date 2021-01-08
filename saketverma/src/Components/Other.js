@@ -21,74 +21,74 @@ function Other() {
   }, []);
   const photos = [
     {
-      src: require('../Images/Photos/Cube.png'),
+      src: 'https://raw.githubusercontent.com/phoenixSaket/saketVerma/master/saketverma/src/Images/Photos/Cube.png',
       width: 2,
       height: 2.5
     },
     {
-      src: require('../Images/Photos/Globe.png'),
+      src: 'https://raw.githubusercontent.com/phoenixSaket/saketVerma/master/saketverma/src/Images/Photos/Globe.png',
       width: 3.4,
       height: 2
     },
     {
-      src: require('../Images/Photos/Mouse.jpg'),
+      src: 'https://raw.githubusercontent.com/phoenixSaket/saketVerma/master/saketverma/src/Images/Photos/Mouse.jpg',
       width: 4,
       height: 5
     },
     {
-      src: require('../Images/Photos/Flower.jpg'),
+      src: 'https://raw.githubusercontent.com/phoenixSaket/saketVerma/master/saketverma/src/Images/Photos/Flower.jpg',
       width: 2,
       height: 2.5
     },
     {
-      src: require('../Images/Photos/Bulb.png'),
+      src: 'https://raw.githubusercontent.com/phoenixSaket/saketVerma/master/saketverma/src/Images/Photos/Bulb.png',
       width: 2.5,
       height: 2
     },
     {
-      src: require('../Images/Photos/Clouds.jpg'),
+      src: 'https://raw.githubusercontent.com/phoenixSaket/saketVerma/master/saketverma/src/Images/Photos/Clouds.jpg',
       width: 2.5,
       height: 2
     },
     {
-      src: require('../Images/Photos/Tree.jpg'),
+      src: 'https://raw.githubusercontent.com/phoenixSaket/saketVerma/master/saketverma/src/Images/Photos/Tree.jpg',
       width: 4,
       height: 5
     },
     {
-      src: require('../Images/Photos/Keyboard.jpg'),
+      src: 'https://raw.githubusercontent.com/phoenixSaket/saketVerma/master/saketverma/src/Images/Photos/Keyboard.jpg',
       width: 2.5,
       height: 2
     },
     {
-      src: require('../Images/Photos/Keyboard2.jpg'),
+      src: 'https://raw.githubusercontent.com/phoenixSaket/saketVerma/master/saketverma/src/Images/Photos/Keyboard2.jpg',
       width: 2,
       height: 2.5
     },
     {
-      src: require('../Images/Photos/Leaves.jpg'),
+      src: 'https://raw.githubusercontent.com/phoenixSaket/saketVerma/master/saketverma/src/Images/Photos/Leaves.jpg',
       width: 10,
       height: 8
     },
     {
-      src: require('../Images/Photos/Goa.png'),
+      src: 'https://raw.githubusercontent.com/phoenixSaket/saketVerma/master/saketverma/src/Images/Photos/Goa.png',
       width: 4,
       height: 5
     },
   ];
 
   const photosFull = [
-    require('../Images/Full-Photos/Cube.png'),
-    require('../Images/Full-Photos/Globe.png'),
-    require('../Images/Full-Photos/Mouse.jpg'),
-    require('../Images/Full-Photos/Flower.jpg'),
-    require('../Images/Full-Photos/Bulb.png'),
-    require('../Images/Full-Photos/Clouds.jpg'),
-    require('../Images/Full-Photos/Tree.jpg'),
-    require('../Images/Full-Photos/Keyboard.jpg'),
-    require('../Images/Full-Photos/Keyboard2.jpg'),
-    require('../Images/Full-Photos/Leaves.jpg'),
-    require('../Images/Full-Photos/Goa.png')
+    'https://raw.githubusercontent.com/phoenixSaket/saketVerma/master/saketverma/src/Images/Full-Photos/Cube.png',
+    'https://raw.githubusercontent.com/phoenixSaket/saketVerma/master/saketverma/src/Images/Full-Photos/Globe.png',
+    'https://raw.githubusercontent.com/phoenixSaket/saketVerma/master/saketverma/src/Images/Full-Photos/Mouse.jpg',
+    'https://raw.githubusercontent.com/phoenixSaket/saketVerma/master/saketverma/src/Images/Full-Photos/Flower.jpg',
+    'https://raw.githubusercontent.com/phoenixSaket/saketVerma/master/saketverma/src/Images/Full-Photos/Bulb.png',
+    'https://raw.githubusercontent.com/phoenixSaket/saketVerma/master/saketverma/src/Images/Full-Photos/Clouds.jpg',
+    'https://raw.githubusercontent.com/phoenixSaket/saketVerma/master/saketverma/src/Images/Full-Photos/Tree.jpg',
+    'https://raw.githubusercontent.com/phoenixSaket/saketVerma/master/saketverma/src/Images/Full-Photos/Keyboard.jpg',
+    'https://raw.githubusercontent.com/phoenixSaket/saketVerma/master/saketverma/src/Images/Full-Photos/Keyboard2.jpg',
+    'https://raw.githubusercontent.com/phoenixSaket/saketVerma/master/saketverma/src/Images/Full-Photos/Leaves.jpg',
+    'https://raw.githubusercontent.com/phoenixSaket/saketVerma/master/saketverma/src/Images/Full-Photos/Goa.png'
   ];
 
   return (
@@ -110,25 +110,25 @@ function Other() {
           <div className="carouselContainer padding-top-down">
             <Carousel interval={2000} indicators={false}>
               <Carousel.Item>
-                <img alt="Quick for KLWP" src={require("../Images/KLWP/Quick.png")} style={{ width: '100%' }} />
+                <img alt="Quick for KLWP" src={"https://raw.githubusercontent.com/phoenixSaket/saketVerma/master/saketverma/src/Images/KLWP/Quick.png"} style={{ width: '100%' }} />
                 <Carousel.Caption>
                   <Button variant="light" onClick={() => openNewTab("https://www.reddit.com/r/androidthemes/comments/hbkloq/theme_quick_android_11_quick_settings_based_live/?utm_source=share&utm_medium=web2x")}>Quick for KLWP</Button>
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
-                <img alt="Quick Version 2 for KLWP" src={require("../Images/KLWP/Quickv2.png")} style={{ width: '100%' }} />
+                <img alt="Quick Version 2 for KLWP" src={"https://raw.githubusercontent.com/phoenixSaket/saketVerma/master/saketverma/src/Images/KLWP/Quickv2.png"} style={{ width: '100%' }} />
                 <Carousel.Caption>
                   <Button variant="light" onClick={() => openNewTab("https://www.reddit.com/r/androidthemes/comments/hcrym9/theme_quick_android_11/?utm_source=share&utm_medium=web2x")}>Quick Version 2 for KLWP</Button>
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
-                <img alt="Covered for KLWP" src={require("../Images/KLWP/Covered.png")} style={{ width: '100%' }} />
+                <img alt="Covered for KLWP" src={"https://raw.githubusercontent.com/phoenixSaket/saketVerma/master/saketverma/src/Images/KLWP/Covered.png"} style={{ width: '100%' }} />
                 <Carousel.Caption>
                   <Button variant="light" onClick={() => openNewTab("https://www.reddit.com/r/kustom/comments/dkq0zr/theme_covered_klwp/?utm_source=share&utm_medium=web2x")}>Covered for KLWP</Button>
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
-                <img alt="Corona Live for KLWP" src={require("../Images/KLWP/Corona.png")} style={{ width: '100%' }} />
+                <img alt="Corona Live for KLWP" src={"https://raw.githubusercontent.com/phoenixSaket/saketVerma/master/saketverma/src/Images/KLWP/Corona.png"} style={{ width: '100%' }} />
                 <Carousel.Caption>
                   <Button variant="light" onClick={() => openNewTab("https://www.reddit.com/r/androidthemes/comments/frrhb3/theme_corona_stats/?utm_source=share&utm_medium=web2x")}>Corona Live for KLWP</Button>
                 </Carousel.Caption>
@@ -178,6 +178,7 @@ function Other() {
       <Modal
         show={show}
         centered
+        className="fullScreen"
         onHide={() => setShow(false)}
         dialogClassName="modal-90w"
         size="xl"

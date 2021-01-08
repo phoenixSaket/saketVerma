@@ -11,7 +11,7 @@ function ExperienceAndWork() {
       </div>
         <Company
           companyName="PlexusMD"
-          imageLink={require("../Images/PlexusMD.png")}
+          imageLink={"https://raw.githubusercontent.com/phoenixSaket/saketVerma/master/saketverma/src/Images/PlexusMD.png"}
           type="Internship"
           workPeriod="Jan, 2020 - June, 2020"
           workingAs={[
@@ -26,7 +26,7 @@ function ExperienceAndWork() {
         />
         <Company
           companyName="ScrollRight"
-          imageLink={require("../Images/sr_mukul.png")}
+          imageLink={"https://raw.githubusercontent.com/phoenixSaket/saketVerma/master/saketverma/src/Images/sr_mukul.png"}
           type="Freelance"
           workPeriod="Since June, 2020"
           workingAs={[
@@ -41,7 +41,7 @@ function ExperienceAndWork() {
         />
         <Company
           companyName="CitiusTech"
-          imageLink={require("../Images/citiustech.png")}
+          imageLink={"https://raw.githubusercontent.com/phoenixSaket/saketVerma/master/saketverma/src/Images/citiustech.png"}
           type="Full Time"
           workPeriod="Since October, 2020"
           workingAs={[
