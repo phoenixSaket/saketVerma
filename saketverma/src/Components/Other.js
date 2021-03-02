@@ -2,7 +2,7 @@ import React, { useState, useCallback } from 'react';
 import "./Experience.css";
 import { Carousel, Button, Tab, Tabs, Modal } from 'react-bootstrap';
 import Gallery from 'react-photo-gallery';
-import Insta from './Insta';
+// import Insta from './Insta';
 
 function openNewTab(link) {
   window.open(link);
@@ -170,9 +170,9 @@ function Other() {
             <Gallery photos={photos} onClick={openIndexSetter} />
           </div>
         </Tab>
-        <Tab eventKey="Instagram" title="Instagram">
+        {/* <Tab eventKey="Instagram" title="Instagram">
           <Insta />
-        </Tab>
+        </Tab> */}
         
       </Tabs>
       <Modal

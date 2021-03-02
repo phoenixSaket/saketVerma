@@ -14,7 +14,9 @@ function Insta() {
 
 
     useEffect(() => {
-        fetch("https://www.instagram.com/saket.verma/?__a=1")
+        fetch("https://www.instagram.com/saket.verma/channel/?__a=1",{
+                mode: 'cors', // no-cors, *cors, same-origin
+            })
             .then(response => response.json())
             .then((jsonData) => {
                 // jsonData is parsed json object received from url
@@ -28,13 +30,12 @@ function Insta() {
                     posts: jsonData.graphql.user.edge_owner_to_timeline_media.count,
                 })
                 setPosts(jsonData.graphql.user.edge_owner_to_timeline_media.edges);
-                if(screenWidth < 700) {
+                if (screenWidth < 700) {
                     setWidth('90%');
                 }
             })
             .catch((error) => {
-                // handle your errors here
-                // console.error(error)
+                console.error(error)
             })
     }, [screenWidth]);
 
