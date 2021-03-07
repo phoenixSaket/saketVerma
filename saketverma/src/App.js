@@ -78,7 +78,7 @@ function App() {
               <div className="personal-inner">
                 <img
                   className="avatar shadows"
-                  src="https://raw.githubusercontent.com/phoenixSaket/saketVerma/master/saketverma/src/Images/photu.jpg"
+                  src="https://raw.githubusercontent.com/phoenixSaket/saketVerma/master/saketverma/src/Images/profile_pic.png"
                   alt="my Avatar"
                 />
                 <div className="personal-info mobile-center">
