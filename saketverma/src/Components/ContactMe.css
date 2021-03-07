@@ -38,12 +38,16 @@
 }
 
 .textBG {
+    /* background-color: #C0E3E7; */
+    background-image: url("../Images/BG_new.png");
+    background-position: center;
+    background-size: cover;
     background-color: #C0E3E7;
 }
 
 .text {
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 5px;
     width: 75%;
 }
 

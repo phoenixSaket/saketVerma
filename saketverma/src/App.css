@@ -102,6 +102,14 @@ html {
   border-color: rgba(255,255,255,0.9) transparent transparent transparent;
 }
 
+.backgroundImage {
+  /* background-image: url("./Images/Abstract1.png"); */
+  background-image: url("./Images/BG_new.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .personal {
   width: 100%;
   height: fit-content;
