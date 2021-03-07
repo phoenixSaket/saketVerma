@@ -45,7 +45,7 @@ function Skills() {
                     <Skill skill='Node JS' prof='70' key='9' />
                 </Col>
                 <Col xs={6}>
-                    <Skill skill='C#' prof='50' key='10' />
+                    <Skill skill='Angular' prof='75' key='10' />
                 </Col>
             </Row>
 
