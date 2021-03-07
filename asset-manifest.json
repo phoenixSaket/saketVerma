@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/saketVerma/static/css/main.c5326750.chunk.css",
-    "main.js": "/saketVerma/static/js/main.f8837ff7.chunk.js",
-    "main.js.map": "/saketVerma/static/js/main.f8837ff7.chunk.js.map",
+    "main.css": "/saketVerma/static/css/main.3b3f3ac1.chunk.css",
+    "main.js": "/saketVerma/static/js/main.3ee8500b.chunk.js",
+    "main.js.map": "/saketVerma/static/js/main.3ee8500b.chunk.js.map",
     "runtime-main.js": "/saketVerma/static/js/runtime-main.a94d926f.js",
     "runtime-main.js.map": "/saketVerma/static/js/runtime-main.a94d926f.js.map",
     "static/css/2.c2d63be1.chunk.css": "/saketVerma/static/css/2.c2d63be1.chunk.css",
@@ -10,16 +10,15 @@
     "static/js/2.b5895df7.chunk.js.map": "/saketVerma/static/js/2.b5895df7.chunk.js.map",
     "index.html": "/saketVerma/index.html",
     "static/css/2.c2d63be1.chunk.css.map": "/saketVerma/static/css/2.c2d63be1.chunk.css.map",
-    "static/css/main.c5326750.chunk.css.map": "/saketVerma/static/css/main.c5326750.chunk.css.map",
+    "static/css/main.3b3f3ac1.chunk.css.map": "/saketVerma/static/css/main.3b3f3ac1.chunk.css.map",
     "static/js/2.b5895df7.chunk.js.LICENSE.txt": "/saketVerma/static/js/2.b5895df7.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/saketVerma/static/media/BG_new.c10c4930.png",
     "static/media/ContactMe.css": "/saketVerma/static/media/modalBG.f3502a2c.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.a94d926f.js",
     "static/css/2.c2d63be1.chunk.css",
     "static/js/2.b5895df7.chunk.js",
-    "static/css/main.c5326750.chunk.css",
-    "static/js/main.f8837ff7.chunk.js"
+    "static/css/main.3b3f3ac1.chunk.css",
+    "static/js/main.3ee8500b.chunk.js"
   ]
 }
