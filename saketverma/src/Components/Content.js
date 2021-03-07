@@ -2,6 +2,9 @@ import React from 'react';
 
 function Content(props) {
   const data = props;
+  const renderContent = data.content.map((element) =>
+    <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{element}</div>
+  );
   // console.log(data.title);
   return (
     <div className="aboutMe boxShadow semi-white-bg">
@@ -12,7 +15,7 @@ function Content(props) {
         </span>
         <br></br>
         <span>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{data.content}
+          {renderContent}
         </span>
       </div>
     </div>

@@ -171,9 +171,12 @@ function App() {
               <Content
                 title="ABOUT ME"
                 subtitle="Hello, Saket here !"
-                content="I am a web designer/developer focused on crafting great web experiences.
-            Designing and Coding have been my passion since the days I started working with computers.
-            I enjoy creating beautifully designed, intuitive and functional websites, softwares, live wallpapers."
+                content={
+                  ["I am a web designer/developer focused on crafting great web experiences." +
+                    "Designing and Coding have been my passion since the days I started working with computers." +
+                    "I enjoy creating beautifully designed, intuitive and functional websites, softwares, live wallpapers.",
+                    "Besides this, I also have passion for gaming and mobile photography."]
+                }
               />
             </div>
             <div id="education"
@@ -181,10 +184,10 @@ function App() {
             >
               <Education />
             </div>
-            
+
             <div id="skills">
-                <Skills />
-              </div>
+              <Skills />
+            </div>
 
             <div id="experience"
             // style={{ marginTop: "40px" }}
